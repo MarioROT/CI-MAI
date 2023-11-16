@@ -13,25 +13,29 @@ class MLP(nn.Module):
   def __init__(self, architecture, hidden_activation, output_activation = 'softmax'):
     super().__init__()
 
-    settings = {"logsig":nn.LogSigmoid,
+    self.architecture = architecture
+    self.hidden_activation = hidden_activation
+    self.output_activation = output_activation
+
+    self.settings = {"logsig":nn.LogSigmoid,
                 "softmax":nn.LogSoftmax,
                 "relu":nn.ReLU,
                 "cat_cross_entropy":F.cross_entropy,
                 "mse_loss":F.mse_loss}
 
-    layers = [layer(h_units, architecture[i+1]) if layer ==  nn.Linear else layer() for i,h_units in enumerate(architecture[:-1]) for layer in [nn.Linear, settings[hidden_activation]]]
+    layers = [layer(h_units, self.architecture[i+1]) if layer ==  nn.Linear else layer() for i,h_units in enumerate(self.architecture[:-1]) for layer in [nn.Linear, self.settings[self.hidden_activation]]]
 
     self.layers = nn.Sequential(
       # nn.Flatten(),
-      *layers
+      *layers[:-1]
     )
-    if settings[params['output_activations']] != 'softmax':
-      self.out_activ = settings[params[output_activation]]()
+    if self.settings[self.output_activation] != 'softmax':
+      self.out_activ = self.settings[self.output_activation]()
 
 
   def forward(self, x):
     '''Forward pass'''
-    if settings[params['output_activations']] != 'softmax':
+    if self.settings[self.output_activation] != 'softmax':
       return self.out_activ(self.layers(x))
     else:
       return self.layers(x)

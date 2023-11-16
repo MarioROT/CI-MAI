@@ -11,7 +11,6 @@ class Cal101Dataset(Dataset):
         self.Y = Y
         self.transform = transform
         self.target_transform = target_transform
-        self.cat_labels = None
 
     def __len__(self):
         return len(self.X)
