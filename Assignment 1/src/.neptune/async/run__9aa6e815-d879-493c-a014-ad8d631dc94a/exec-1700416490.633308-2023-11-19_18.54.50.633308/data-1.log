@@ -1,0 +1,80 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "Untitled"}, "version": 1}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Mario"}, "version": 3}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["non-mandatory"]}, "version": 4}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 5}
+{"obj": {"type": "ClearStringLog", "path": ["monitoring", "stdout"]}, "version": 6}
+{"obj": {"type": "ClearStringLog", "path": ["monitoring", "stderr"]}, "version": 7}
+{"obj": {"type": "AssignString", "path": ["source_code", "entrypoint"], "value": "test.py"}, "version": 8}
+{"obj": {"type": "UploadFileSet", "path": ["source_code", "files"], "file_globs": ["C:\\Users\\mario\\Github\\UPC\\CI-MAI\\src\\test.py"], "reset": "False"}, "version": 9}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "cpu"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 10}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "cpu"]}, "version": 11}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "memory"], "min": 0.0, "max": 15.788383483886719, "unit": "GB"}, "version": 12}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "memory"]}, "version": 13}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 14}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu"]}, "version": 15}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu_memory"], "min": 0.0, "max": 8.0, "unit": "GB"}, "version": 16}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu_memory"]}, "version": 17}
+{"obj": {"type": "AssignString", "path": ["parameters", "Experiment"], "value": "CNN"}, "version": 18}
+{"obj": {"type": "AssignString", "path": ["parameters", "DataSplit"], "value": "0.8-0.1-0.1"}, "version": 19}
+{"obj": {"type": "AssignString", "path": ["parameters", "MLP"], "value": "15488-101"}, "version": 20}
+{"obj": {"type": "AssignString", "path": ["parameters", "CNN"], "value": "1-32-64-128-64-32"}, "version": 21}
+{"obj": {"type": "AssignString", "path": ["parameters", "Kernels"], "value": "3-3-3-3-3-3"}, "version": 22}
+{"obj": {"type": "AssignString", "path": ["parameters", "HiddenAct"], "value": "relu"}, "version": 23}
+{"obj": {"type": "AssignString", "path": ["parameters", "OutputAct"], "value": "softmax"}, "version": 24}
+{"obj": {"type": "AssignString", "path": ["parameters", "PoolingL"], "value": "max_pool"}, "version": 25}
+{"obj": {"type": "AssignInt", "path": ["parameters", "Padding"], "value": 1}, "version": 26}
+{"obj": {"type": "AssignInt", "path": ["parameters", "Stride"], "value": 1}, "version": 27}
+{"obj": {"type": "AssignInt", "path": ["parameters", "Epochs"], "value": 50}, "version": 28}
+{"obj": {"type": "AssignString", "path": ["parameters", "LossFunc"], "value": "cce"}, "version": 29}
+{"obj": {"type": "AssignString", "path": ["parameters", "Optimizer"], "value": "Adam"}, "version": 30}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "Momentum"], "value": 0.9}, "version": 31}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "LearningRate"], "value": 0.0005}, "version": 32}
+{"obj": {"type": "AssignInt", "path": ["parameters", "Tolerance"], "value": 10}, "version": 33}
+{"obj": {"type": "AssignString", "path": ["parameters", "Device"], "value": "cuda"}, "version": 34}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\neptune\\new\\handler.py:168: NeptuneDeprecationWarning: The object you're logging will be implicitly cast to a string. We'll end support of this behavior in `neptune-client==1.0.0`. To log the object as a string, use `str(object)` instead.\n  self._container.define(self._path, value, wait)\n", "step": null, "ts": 1700416492.2481067}]}, "version": 35}
+{"obj": {"type": "AssignString", "path": ["parameters", "Tags"], "value": "['non-mandatory']"}, "version": 36}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 11.6, "step": null, "ts": 1700416492.2431023}]}, "version": 37}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 11.301589965820312, "step": null, "ts": 1700416492.2431023}]}, "version": 38}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory"], "values": [{"value": 0.14453125, "step": null, "ts": 1700416492.2431023}]}, "version": 39}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "traceback"], "values": [{"value": "An uncaught exception occurred while run was active on worker Mario.", "step": null, "ts": 1700416497.825547}, {"value": "Marking run as failed", "step": null, "ts": 1700416497.825547}, {"value": "Traceback:", "step": null, "ts": 1700416497.825547}, {"value": "  File \"C:\\Users\\mario\\Github\\UPC\\CI-MAI\\src\\test.py\", line 72, in <module>\n    summary(model, (1,28,28) if args.Experiment == 'CNN' else (1,784), device ='cpu')\n", "step": null, "ts": 1700416497.825547}, {"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torchsummary\\torchsummary.py\", line 72, in summary\n    model(*x)\n", "step": null, "ts": 1700416497.825547}, {"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1190, in _call_impl\n    return forward_call(*input, **kwargs)\n", "step": null, "ts": 1700416497.825547}, {"value": "  File \"C:\\Users\\mario\\Github\\UPC\\CI-MAI\\src\\architectures\\cnn.py\", line 68, in forward\n    return self.out_activ(self.layers(x))\n", "step": null, "ts": 1700416497.825547}, {"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1190, in _call_impl\n    return forward_call(*input, **kwargs)\n", "step": null, "ts": 1700416497.825547}, {"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torch\\nn\\modules\\container.py\", line 204, in forward\n    input = module(input)\n", "step": null, "ts": 1700416497.825547}, {"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1208, in _call_impl\n    result = forward_call(*input, **kwargs)\n", "step": null, "ts": 1700416497.825547}]}, "version": 40}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "traceback"], "values": [{"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torch\\nn\\modules\\linear.py\", line 114, in forward\n    return F.linear(input, self.weight, self.bias)\n", "step": null, "ts": 1700416497.825547}, {"value": "mat1 and mat2 shapes cannot be multiplied (2x10368 and 15488x101)", "step": null, "ts": 1700416497.825547}]}, "version": 41}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": true}, "version": 42}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "Traceback (most recent call last):\n", "step": null, "ts": 1700416497.8266203}]}, "version": 43}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"C:\\Users\\mario\\Github\\UPC\\CI-MAI\\src\\test.py\", line 72, in <module>\n", "step": null, "ts": 1700416497.8266203}]}, "version": 44}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1700416497.8266203}]}, "version": 45}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "summary(model, (1,28,28) if args.Experiment == 'CNN' else (1,784), device ='cpu')", "step": null, "ts": 1700416497.8277152}]}, "version": 46}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1700416497.8277152}]}, "version": 47}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torchsummary\\torchsummary.py\", line 72, in summary\n", "step": null, "ts": 1700416497.8277152}]}, "version": 48}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1700416497.8287647}]}, "version": 49}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "model(*x)", "step": null, "ts": 1700416497.8287647}]}, "version": 50}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1700416497.8287647}]}, "version": 51}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1190, in _call_impl\n", "step": null, "ts": 1700416497.829274}]}, "version": 52}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1700416497.8297832}]}, "version": 53}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "return forward_call(*input, **kwargs)", "step": null, "ts": 1700416497.8297832}]}, "version": 54}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1700416497.8297832}]}, "version": 55}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"C:\\Users\\mario\\Github\\UPC\\CI-MAI\\src\\architectures\\cnn.py\", line 68, in forward\n", "step": null, "ts": 1700416497.8297832}]}, "version": 56}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1700416497.830789}]}, "version": 57}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "return self.out_activ(self.layers(x))", "step": null, "ts": 1700416497.830789}]}, "version": 58}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1700416497.830789}]}, "version": 59}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1190, in _call_impl\n", "step": null, "ts": 1700416497.830789}]}, "version": 60}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1700416497.8317955}]}, "version": 61}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "return forward_call(*input, **kwargs)", "step": null, "ts": 1700416497.8317955}]}, "version": 62}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1700416497.8317955}]}, "version": 63}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torch\\nn\\modules\\container.py\", line 204, in forward\n", "step": null, "ts": 1700416497.8317955}]}, "version": 64}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1700416497.8317955}]}, "version": 65}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "input = module(input)", "step": null, "ts": 1700416497.8317955}]}, "version": 66}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1700416497.8328114}]}, "version": 67}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1208, in _call_impl\n", "step": null, "ts": 1700416497.8328114}]}, "version": 68}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1700416497.8328114}]}, "version": 69}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "result = forward_call(*input, **kwargs)", "step": null, "ts": 1700416497.8328114}]}, "version": 70}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1700416497.8338203}]}, "version": 71}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"C:\\Users\\mario\\anaconda3\\envs\\CI\\lib\\site-packages\\torch\\nn\\modules\\linear.py\", line 114, in forward\n", "step": null, "ts": 1700416497.8338203}]}, "version": 72}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1700416497.8338203}]}, "version": 73}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "return F.linear(input, self.weight, self.bias)", "step": null, "ts": 1700416497.8338203}]}, "version": 74}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1700416497.834829}]}, "version": 75}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "RuntimeError", "step": null, "ts": 1700416497.834829}]}, "version": 76}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": ": ", "step": null, "ts": 1700416497.834829}]}, "version": 77}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "mat1 and mat2 shapes cannot be multiplied (2x10368 and 15488x101)", "step": null, "ts": 1700416497.834829}]}, "version": 78}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1700416497.834829}]}, "version": 79}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Shutting down background jobs, please wait a moment...\n", "step": null, "ts": 1700416497.8358374}]}, "version": 80}
