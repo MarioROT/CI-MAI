@@ -162,7 +162,7 @@ class GAESMLP():
         
         if self.save_dir:
             try:
-                df_res = pd.read_csv(self.save_dir)
+                df_res = pd.read_csv(self.save_dir + '.csv')
             except:
                 df_res = pd.DataFrame(columns=['timestamp', 'train acc', 'train error', 'val acc', 'val error', 'test acc', 'test error', 'train time', 'inference time'])
             
@@ -170,7 +170,7 @@ class GAESMLP():
             
             df_temp = pd.DataFrame({k:[v] for k,v in zip(df_res.columns,values)} )
             df_res = pd.concat([df_res, df_temp], ignore_index=True)
-            df_res.to_csv(self.save_dir+'.cvs', index=False)
+            df_res.to_csv(self.save_dir+'.csv', index=False)
         
     def predict(self, X):
         return np.array([0.0 if i<0.5 else 1.0 for i in self.model.predict(X, verbose = 0)])
