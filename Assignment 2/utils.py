@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 from sklearn.metrics import accuracy_score
 from skmultilearn.model_selection.iterative_stratification import iterative_train_test_split
 import matplotlib.pyplot as plt
@@ -67,6 +68,7 @@ class GAESMLP():
         self.bce = tf.keras.losses.BinaryCrossentropy(from_logits=False)
         
     def fit(self, X, y, **kargs):
+        tf.keras.backend.clear_session()
         iterations = kargs['iterations'] if 'iterations' in kargs.keys() else 100
         verbose = kargs['verbose'] if 'verbose' in kargs.keys() else True
         
@@ -76,7 +78,8 @@ class GAESMLP():
             def fitness_func(weights):
                 self.model.set_weights(weights)
                 prediction = self.model.predict(self.X_train, verbose = 0)
-                reward = -self.bce(self.y_train, prediction).numpy()
+                # reward = -self.bce(self.y_train, prediction).numpy()
+                reward = 1.0 / (self.bce(self.y_train, prediction).numpy() + 0.00000001)
                 return reward
             es = EvolutionStrategy([w for layer in self.model.layers for w in layer.get_weights()], fitness_func, population_size=self.pop_size, sigma=self.sigma, learning_rate=self.learning_rate, decay=self.decay, num_threads=self.num_threads)
             print_step = kargs['print_step'] if 'print_step' in kargs.keys() else 10
@@ -112,7 +115,7 @@ class GAESMLP():
             solution, solution_fitness, solution_idx = ga_instance.best_solution()
             if verbose:
                 print(f"Fitness value of the best solution = {solution_fitness}")
-                print(f"Index of the best solution : {solution_idx}")
+                ga_instance.plot_result(title="MLP + GA - Iteration vs. Fitness", linewidth=4)
 
             # Fetch the parameters of the best solution.
             best_solution_weights = pygad.kerasga.model_weights_as_matrix(model=self.model,
@@ -122,21 +125,28 @@ class GAESMLP():
         elif self.optimizer == 'BP':
             sgd = tf.keras.optimizers.SGD(learning_rate=self.learning_rate, momentum=self.momentum, nesterov=self.nesterov)
             self.model.compile(loss = self.bce, optimizer = 'sgd', metrics = ['accuracy'])
-            self.model.fit(self.X_train, self.y_train, epochs=iterations)
+            history = self.model.fit(self.X_train, self.y_train, epochs=iterations)
+            pd.DataFrame(history.history).plot()
+            plt.xlabel("epoch")
+            plt.legend(bbox_to_anchor=(1.05, 1), loc=2)
+            plt.show()
             
         if 'X_val' in kargs.keys() and 'y_val' in kargs.keys():
             acc = self.evaluate(kargs['X_val'], kargs['y_val'])
             loss = self.bce(kargs['y_val'], self.predict(kargs['X_val'])).numpy()
             if verbose:
                 print(f"Validation loss: {loss}    Validation acc:  {acc}")
-    
+                self.boundary(self.model, self.X_train, self.y_train, 100, f"Train - Optimizer: {self.optimizer}")
+                self.boundary(self.model, kargs['X_val'], kargs['y_val'], 100, f"Validation - Optimizer: {self.optimizer}")    
         
     def predict(self, X):
         return np.array([0.0 if i<0.5 else 1.0 for i in self.model.predict(X, verbose = 0)])
     
-    def evaluate(self, X, y):
+    def evaluate(self, X, y, verbose=None):
         preds = [0.0 if i<0.5 else 1.0 for i in self.model.predict(X, verbose = 0)]
         accuracy = accuracy_score(preds, y)
+        if verbose:
+            self.boundary(self.model, X, y, 100, f"{verbose} - Optimizer: {self.optimizer}")
         return accuracy
     
     @staticmethod
@@ -147,3 +157,36 @@ class GAESMLP():
             mod.add(tf.keras.layers.Dense(i, activation='relu'))
         mod.add(tf.keras.layers.Dense(model[-1], activation='sigmoid'))
         return mod
+    
+    @staticmethod
+    def boundary(model, data, class_col=None, resolution=100, title=None):
+        #No necesario por como se define la siguiente parte
+        if class_col is not None:
+            cl = class_col
+        else:
+            cl = 1
+
+        k = len(np.unique(cl))
+        x1=data.T[0]
+        x2=data.T[1]
+
+        # Make grid   
+        x1_min, x1_max =x1.min()-0.2 , x1.max() +0.2
+        x2_min ,x2_max =x2.min()-0.2 , x2.max() +0.2
+
+        xx1, xx2 = np.meshgrid(np.linspace(x1_min,x1_max, resolution), np.linspace(x2_min, x2_max, 100))
+
+        #Predict grid with model
+        x_in = np.c_[xx1.ravel(), xx2.ravel()]
+        y_pred = model.predict(x_in)
+        y_pred = np.round(y_pred).reshape(xx1.shape)
+
+
+        #Plotting contours
+        plt.contourf(xx1, xx2, y_pred, cmap=plt.cm.RdYlBu, alpha=0.7 )
+        plt.scatter(x1, x2, c=cl, s=40, cmap=plt.cm.RdYlBu,)
+        plt.xlim(x1.min(), x1.max())
+        plt.ylim(x2.min(), x2.max())
+        if title:
+            plt.title(title)
+        plt.show()
