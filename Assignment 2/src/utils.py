@@ -75,7 +75,7 @@ class GAESMLP():
         self.bce = tf.keras.losses.BinaryCrossentropy(from_logits=False)
         
     def fit(self, X, y, **kargs):
-        #tf.keras.backend.clear_session()
+        tf.keras.backend.clear_session()
         iterations = kargs['iterations'] if 'iterations' in kargs.keys() else 100
         verbose = kargs['verbose'] if 'verbose' in kargs.keys() else True
         
