@@ -34,7 +34,7 @@ for i = 1:cv.NumTestSets
     fis = genfis(inputs_train, target_train, optGF);
     
     % Train the ANFIS model
-    numEpochs = 3; % Adjust as needed
+    numEpochs = 100; % Adjust as needed
     [trainedFis, trainError] = anfis([inputs_train target_train], fis, numEpochs);
     
     % Predict the heating load for the test set
