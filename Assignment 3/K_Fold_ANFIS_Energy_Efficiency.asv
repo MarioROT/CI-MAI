@@ -1,3 +1,5 @@
+clear; clc; close;
+tic
 % Load the dataset from an Excel file
 data = readtable('energy_efficiency_data.xlsx');
 
@@ -21,9 +23,9 @@ maxVals = max(inputs);
 inputs_normalized = (inputs - minVals) ./ (maxVals - minVals);
 
 % Normalize the targets using min-max normalization
-%minVals = min(target);
-%maxVals = max(target);
-%target_normalized = (inputs - minVals) ./ (maxVals - minVals);
+minVals = min(target);
+maxVals = max(target);
+target_normalized = (inputs - minVals) ./ (maxVals - minVals);
 
 % Initialize cross-validation
 cv = cvpartition(size(data,1),'KFold',3);
@@ -40,16 +42,19 @@ for i = 1:cv.NumTestSets
     
     % Splitting the data
     inputs_train = inputs_normalized(trainIdx,:);
-    target_train = target(trainIdx);
+    target_train = target_normalized(trainIdx);
     inputs_test = inputs_normalized(testIdx,:);
-    target_test = targets_(testIdx);
+    target_test = target_normalized(testIdx);
     
     % Generate an initial FIS structure
-    optGF = genfisOptions('FCMClustering','FISType','sugeno');
+    %%optGF = genfisOptions('FCMClustering','FISType','sugeno');
+    optGF = genfisOptions('GridPartition');
+    optGF.NumMembershipFunctions = 2;
+    optGF.InputMembershipFunctionType = "gbellmf";
     fis = genfis(inputs_train, target_train, optGF);
     
     % Train the ANFIS model
-    numEpochs = 50; % Adjust as needed
+    numEpochs = 3; % Adjust as needed
     [trainedFis, trainError] = anfis([inputs_train target_train], fis, numEpochs);
     
     % Predict the heating load for the test set
@@ -70,3 +75,4 @@ end
 disp(['Average MAE: ', num2str(mean(mae_values))]);
 disp(['Average MSE: ', num2str(mean(mse_values))]);
 disp(['Average MRE: ', num2str(mean(mre_values))]);
+toc

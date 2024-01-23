@@ -1,3 +1,4 @@
+clear; clc; close;
 % Load the dataset from an Excel file
 data = readtable('energy_efficiency_data.xlsx');
 
@@ -23,10 +24,10 @@ inputs_test = inputs_standardized(idx,:);
 target_test = target(idx,:);
 
 %% Generate an initial FIS structure
-%optGF = genfisOptions("SubtractiveClustering");
-optGF = genfisOptions('FCMClustering','FISType','sugeno');
-%optGF.NumMembershipFunctions = 3;
-%optGF.InputMembershipFunctionType = "gbellmf";
+optGF = genfisOptions("GridPartition");
+%optGF = genfisOptions('FCMClustering','FISType','sugeno');
+optGF.NumMembershipFunctions = 2;
+optGF.InputMembershipFunctionType = "gbellmf";
 fis = genfis(inputs_train, target_train, optGF);
 
 %% Train the ANFIS model

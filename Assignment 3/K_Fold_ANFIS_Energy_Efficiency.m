@@ -1,3 +1,5 @@
+clear; clc; close;
+tic
 % Load the dataset from an Excel file
 data = readtable('energy_efficiency_data.xlsx');
 
@@ -45,7 +47,10 @@ for i = 1:cv.NumTestSets
     target_test = target_normalized(testIdx);
     
     % Generate an initial FIS structure
-    optGF = genfisOptions('FCMClustering','FISType','sugeno');
+    %%optGF = genfisOptions('FCMClustering','FISType','sugeno');
+    optGF = genfisOptions('GridPartition');
+    optGF.NumMembershipFunctions = 2;
+    optGF.InputMembershipFunctionType = "gbellmf";
     fis = genfis(inputs_train, target_train, optGF);
     
     % Train the ANFIS model
@@ -70,3 +75,4 @@ end
 disp(['Average MAE: ', num2str(mean(mae_values))]);
 disp(['Average MSE: ', num2str(mean(mse_values))]);
 disp(['Average MRE: ', num2str(mean(mre_values))]);
+toc
