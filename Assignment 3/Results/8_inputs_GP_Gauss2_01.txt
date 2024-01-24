@@ -1,0 +1,438 @@
+Warning: Generated rule base is large. MATLAB may run out of memory if this FIS is tuned using ANFIS. 
+> In genfis1 (line 162)
+In genfis (line 61)
+In K_Fold_ANFIS_Energy_Efficiency (line 54) 
+
+ANFIS info:
+	Number of nodes: 555
+	Number of linear parameters: 2304
+	Number of nonlinear parameters: 64
+	Total number of parameters: 2368
+	Number of training data pairs: 512
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 256
+
+Warning: Number of training data is smaller than number of modifiable parameters. 
+> In anfis>trainFIS (line 197)
+In anfis>anfisWithOptionalInputs (line 331)
+In anfis (line 70)
+In K_Fold_ANFIS_Energy_Efficiency (line 58) 
+
+Start training ANFIS ...
+
+1 	 3.94052e-07
+2 	 3.3324e-07
+3 	 2.81557e-07
+4 	 2.45462e-07
+Step size increases to 0.011000 after epoch 5.
+5 	 2.29566e-07
+6 	 2.31405e-07
+7 	 2.44318e-07
+8 	 2.59538e-07
+9 	 2.70763e-07
+10 	 2.72788e-07
+11 	 2.66216e-07
+12 	 2.56484e-07
+13 	 2.47176e-07
+Step size increases to 0.012100 after epoch 14.
+14 	 2.41389e-07
+15 	 2.40377e-07
+16 	 2.44587e-07
+17 	 2.48585e-07
+18 	 2.37298e-07
+19 	 2.02265e-07
+20 	 1.56342e-07
+Step size increases to 0.013310 after epoch 21.
+21 	 1.22317e-07
+22 	 1.17643e-07
+23 	 1.15024e-07
+24 	 1.69697e-07
+25 	 1.19039e-07
+26 	 1.73235e-07
+Step size decreases to 0.011979 after epoch 27.
+27 	 1.22527e-07
+28 	 1.77056e-07
+29 	 1.23912e-07
+30 	 1.80203e-07
+Step size decreases to 0.010781 after epoch 31.
+31 	 1.26859e-07
+32 	 1.83392e-07
+33 	 1.28807e-07
+34 	 1.85669e-07
+Step size decreases to 0.009703 after epoch 35.
+35 	 1.31619e-07
+36 	 1.88045e-07
+37 	 1.34349e-07
+38 	 1.89328e-07
+Step size decreases to 0.008733 after epoch 39.
+39 	 1.37034e-07
+40 	 1.90929e-07
+41 	 1.40349e-07
+42 	 1.91306e-07
+Step size decreases to 0.007859 after epoch 43.
+43 	 1.42857e-07
+44 	 1.92367e-07
+45 	 1.46509e-07
+46 	 1.92215e-07
+Step size decreases to 0.007073 after epoch 47.
+47 	 1.48882e-07
+48 	 1.93153e-07
+49 	 1.52768e-07
+50 	 1.93035e-07
+Step size decreases to 0.006366 after epoch 51.
+51 	 1.55189e-07
+52 	 1.94324e-07
+53 	 1.59408e-07
+54 	 1.94766e-07
+Step size decreases to 0.005730 after epoch 55.
+55 	 1.62187e-07
+56 	 1.96875e-07
+57 	 1.67024e-07
+58 	 1.9833e-07
+Step size decreases to 0.005157 after epoch 59.
+59 	 1.70599e-07
+60 	 2.01786e-07
+61 	 1.76531e-07
+62 	 2.04722e-07
+Step size decreases to 0.004641 after epoch 63.
+63 	 1.81541e-07
+64 	 2.1022e-07
+65 	 1.89275e-07
+66 	 2.15252e-07
+Step size decreases to 0.004177 after epoch 67.
+67 	 1.96635e-07
+68 	 2.23773e-07
+69 	 2.07097e-07
+70 	 2.31853e-07
+Step size decreases to 0.003759 after epoch 71.
+71 	 2.17976e-07
+72 	 2.4475e-07
+73 	 2.3211e-07
+74 	 2.5727e-07
+Step size decreases to 0.003383 after epoch 75.
+75 	 2.47322e-07
+76 	 2.75691e-07
+77 	 2.65262e-07
+78 	 2.93171e-07
+Step size decreases to 0.003045 after epoch 79.
+79 	 2.83605e-07
+80 	 3.15169e-07
+81 	 3.03133e-07
+82 	 3.34046e-07
+Step size decreases to 0.002740 after epoch 83.
+83 	 3.20732e-07
+84 	 3.53312e-07
+85 	 3.38092e-07
+86 	 3.68918e-07
+Step size decreases to 0.002466 after epoch 87.
+87 	 3.51897e-07
+88 	 3.82664e-07
+89 	 3.65141e-07
+90 	 3.93504e-07
+Step size decreases to 0.002220 after epoch 91.
+91 	 3.74635e-07
+92 	 4.02371e-07
+93 	 3.83993e-07
+94 	 4.09159e-07
+Step size decreases to 0.001998 after epoch 95.
+95 	 3.89985e-07
+96 	 4.14471e-07
+97 	 3.9638e-07
+98 	 4.18337e-07
+Step size decreases to 0.001798 after epoch 99.
+99 	 3.99853e-07
+100 	 4.21257e-07
+
+Designated epoch number reached. ANFIS training completed at epoch 100.
+
+Minimal training RMSE = 1.15024e-07
+Warning: Generated rule base is large. MATLAB may run out of memory if this FIS is tuned using ANFIS. 
+> In genfis1 (line 162)
+In genfis (line 61)
+In K_Fold_ANFIS_Energy_Efficiency (line 54) 
+
+ANFIS info:
+	Number of nodes: 555
+	Number of linear parameters: 2304
+	Number of nonlinear parameters: 64
+	Total number of parameters: 2368
+	Number of training data pairs: 512
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 256
+
+Warning: Number of training data is smaller than number of modifiable parameters. 
+> In anfis>trainFIS (line 197)
+In anfis>anfisWithOptionalInputs (line 331)
+In anfis (line 70)
+In K_Fold_ANFIS_Energy_Efficiency (line 58) 
+
+Start training ANFIS ...
+
+1 	 4.64226e-07
+2 	 3.88532e-07
+3 	 3.2522e-07
+4 	 2.83642e-07
+Step size increases to 0.011000 after epoch 5.
+5 	 2.67762e-07
+6 	 2.70998e-07
+7 	 2.8318e-07
+8 	 2.94998e-07
+9 	 3.0197e-07
+10 	 2.99419e-07
+11 	 2.85761e-07
+12 	 2.69181e-07
+Step size increases to 0.012100 after epoch 13.
+13 	 2.61998e-07
+14 	 2.63709e-07
+15 	 2.68966e-07
+16 	 2.70973e-07
+17 	 2.63014e-07
+18 	 2.36382e-07
+19 	 1.91481e-07
+Step size increases to 0.013310 after epoch 20.
+20 	 1.4506e-07
+21 	 1.14787e-07
+22 	 1.06372e-07
+23 	 6.997e-08
+24 	 1.24733e-07
+25 	 7.31722e-08
+26 	 1.21962e-07
+Step size decreases to 0.011979 after epoch 27.
+27 	 7.53087e-08
+28 	 1.20067e-07
+29 	 6.85934e-08
+30 	 1.17171e-07
+Step size decreases to 0.010781 after epoch 31.
+31 	 7.07968e-08
+32 	 1.14905e-07
+33 	 6.52213e-08
+34 	 1.11071e-07
+Step size decreases to 0.009703 after epoch 35.
+35 	 6.79567e-08
+36 	 1.08253e-07
+37 	 6.37928e-08
+38 	 1.03641e-07
+Step size decreases to 0.008733 after epoch 39.
+39 	 6.69074e-08
+40 	 1.00566e-07
+41 	 6.38593e-08
+42 	 9.57887e-08
+Step size decreases to 0.007859 after epoch 43.
+43 	 6.70579e-08
+44 	 9.28608e-08
+45 	 6.47918e-08
+46 	 8.85005e-08
+Step size decreases to 0.007073 after epoch 47.
+47 	 6.78913e-08
+48 	 8.60371e-08
+49 	 6.62142e-08
+50 	 8.24553e-08
+Step size decreases to 0.006366 after epoch 51.
+51 	 6.91666e-08
+52 	 8.07003e-08
+53 	 6.79973e-08
+54 	 7.81178e-08
+Step size decreases to 0.005730 after epoch 55.
+55 	 7.08344e-08
+56 	 7.72902e-08
+57 	 7.01836e-08
+58 	 7.58676e-08
+Step size decreases to 0.005157 after epoch 59.
+59 	 7.30097e-08
+60 	 7.61834e-08
+61 	 7.30274e-08
+62 	 7.60687e-08
+63 	 7.6106e-08
+64 	 7.77711e-08
+65 	 7.90067e-08
+66 	 8.04754e-08
+67 	 8.23881e-08
+68 	 8.4076e-08
+69 	 8.6586e-08
+70 	 8.86806e-08
+71 	 9.18267e-08
+72 	 9.44283e-08
+73 	 9.82209e-08
+74 	 1.01328e-07
+75 	 1.05673e-07
+76 	 1.09143e-07
+77 	 1.13816e-07
+78 	 1.17379e-07
+79 	 1.22083e-07
+80 	 1.25442e-07
+81 	 1.29911e-07
+82 	 1.32834e-07
+83 	 1.36891e-07
+84 	 1.39252e-07
+85 	 1.42822e-07
+86 	 1.44591e-07
+87 	 1.47675e-07
+88 	 1.48887e-07
+89 	 1.51532e-07
+90 	 1.52253e-07
+91 	 1.54525e-07
+92 	 1.54833e-07
+93 	 1.56805e-07
+94 	 1.56773e-07
+95 	 1.58512e-07
+Step size decreases to 0.004641 after epoch 96.
+96 	 1.58204e-07
+97 	 1.59765e-07
+98 	 1.57873e-07
+99 	 1.60646e-07
+Step size decreases to 0.004177 after epoch 100.
+100 	 1.58652e-07
+
+Designated epoch number reached. ANFIS training completed at epoch 100.
+
+Minimal training RMSE = 6.37928e-08
+Warning: Generated rule base is large. MATLAB may run out of memory if this FIS is tuned using ANFIS. 
+> In genfis1 (line 162)
+In genfis (line 61)
+In K_Fold_ANFIS_Energy_Efficiency (line 54) 
+
+ANFIS info:
+	Number of nodes: 555
+	Number of linear parameters: 2304
+	Number of nonlinear parameters: 64
+	Total number of parameters: 2368
+	Number of training data pairs: 512
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 256
+
+Warning: Number of training data is smaller than number of modifiable parameters. 
+> In anfis>trainFIS (line 197)
+In anfis>anfisWithOptionalInputs (line 331)
+In anfis (line 70)
+In K_Fold_ANFIS_Energy_Efficiency (line 58) 
+
+Start training ANFIS ...
+
+1 	 4.61184e-07
+2 	 4.028e-07
+3 	 3.51523e-07
+4 	 3.13225e-07
+Step size increases to 0.011000 after epoch 5.
+5 	 2.91983e-07
+6 	 2.86194e-07
+7 	 2.90274e-07
+8 	 2.97939e-07
+9 	 3.03583e-07
+10 	 3.01637e-07
+11 	 2.91983e-07
+12 	 2.81254e-07
+Step size increases to 0.012100 after epoch 13.
+13 	 2.75847e-07
+14 	 2.77542e-07
+15 	 2.85127e-07
+16 	 2.96561e-07
+17 	 3.11587e-07
+18 	 3.27789e-07
+19 	 3.42762e-07
+20 	 3.56772e-07
+21 	 3.71908e-07
+22 	 3.96542e-07
+23 	 4.69053e-07
+24 	 4.9761e-07
+25 	 4.84224e-07
+26 	 5.09015e-07
+Step size decreases to 0.010890 after epoch 27.
+27 	 5.00219e-07
+28 	 5.19169e-07
+29 	 5.24532e-07
+30 	 5.28859e-07
+31 	 5.39062e-07
+32 	 5.3757e-07
+33 	 5.53305e-07
+Step size decreases to 0.009801 after epoch 34.
+34 	 5.45402e-07
+35 	 5.67241e-07
+36 	 5.68922e-07
+37 	 5.81005e-07
+38 	 5.74694e-07
+39 	 5.94392e-07
+Step size decreases to 0.008821 after epoch 40.
+40 	 5.79817e-07
+41 	 6.07478e-07
+42 	 5.98871e-07
+43 	 6.20759e-07
+Step size decreases to 0.007939 after epoch 44.
+44 	 6.02219e-07
+45 	 6.33573e-07
+46 	 6.1779e-07
+47 	 6.4667e-07
+Step size decreases to 0.007145 after epoch 48.
+48 	 6.19279e-07
+49 	 6.59002e-07
+50 	 6.3237e-07
+51 	 6.71291e-07
+Step size decreases to 0.006430 after epoch 52.
+52 	 6.31819e-07
+53 	 6.8256e-07
+54 	 6.43032e-07
+55 	 6.93078e-07
+Step size decreases to 0.005787 after epoch 56.
+56 	 6.40464e-07
+57 	 7.02579e-07
+58 	 6.50147e-07
+59 	 7.10326e-07
+Step size decreases to 0.005209 after epoch 60.
+60 	 6.4574e-07
+61 	 7.17309e-07
+62 	 6.53821e-07
+63 	 7.20996e-07
+Step size decreases to 0.004688 after epoch 64.
+64 	 6.47322e-07
+65 	 7.24192e-07
+66 	 6.52565e-07
+67 	 7.21363e-07
+Step size decreases to 0.004219 after epoch 68.
+68 	 6.42308e-07
+69 	 7.18084e-07
+70 	 6.41162e-07
+71 	 7.04889e-07
+Step size decreases to 0.003797 after epoch 72.
+72 	 6.23283e-07
+73 	 6.91361e-07
+74 	 6.10364e-07
+75 	 6.6597e-07
+Step size decreases to 0.003417 after epoch 76.
+76 	 5.80721e-07
+77 	 6.42156e-07
+78 	 5.56616e-07
+79 	 6.10206e-07
+Step size decreases to 0.003076 after epoch 80.
+80 	 5.2092e-07
+81 	 5.83569e-07
+82 	 4.99947e-07
+83 	 5.5541e-07
+Step size decreases to 0.002768 after epoch 84.
+84 	 4.72643e-07
+85 	 5.33602e-07
+86 	 4.60803e-07
+87 	 5.1411e-07
+Step size decreases to 0.002491 after epoch 88.
+88 	 4.4405e-07
+89 	 4.99331e-07
+90 	 4.38426e-07
+91 	 4.86602e-07
+Step size decreases to 0.002242 after epoch 92.
+92 	 4.27984e-07
+93 	 4.76818e-07
+94 	 4.25537e-07
+95 	 4.68027e-07
+Step size decreases to 0.002018 after epoch 96.
+96 	 4.1828e-07
+97 	 4.61049e-07
+98 	 4.17177e-07
+99 	 4.54284e-07
+Step size decreases to 0.001816 after epoch 100.
+100 	 4.1143e-07
+
+Designated epoch number reached. ANFIS training completed at epoch 100.
+
+Minimal training RMSE = 2.75847e-07
+Average MAE: 1.7038e-06
+Average MSE: 3.5992e-10
+Average MRE: 1.2047e-05
+Elapsed time is 3614.212981 seconds.

@@ -1,0 +1,787 @@
+Warning: Generated rule base is large. MATLAB may run out of memory if this FIS is tuned using ANFIS. 
+> In genfis1 (line 162)
+In genfis (line 61)
+In K_Fold_ANFIS_Energy_Efficiency (line 54) 
+
+ANFIS info:
+	Number of nodes: 555
+	Number of linear parameters: 2304
+	Number of nonlinear parameters: 48
+	Total number of parameters: 2352
+	Number of training data pairs: 512
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 256
+
+Warning: Number of training data is smaller than number of modifiable parameters. 
+> In anfis>trainFIS (line 197)
+In anfis>anfisWithOptionalInputs (line 331)
+In anfis (line 70)
+In K_Fold_ANFIS_Energy_Efficiency (line 58) 
+
+Start training ANFIS ...
+
+1 	 1.33778e-06
+2 	 1.32446e-06
+3 	 1.30909e-06
+4 	 1.29091e-06
+Step size increases to 0.011000 after epoch 5.
+5 	 1.26946e-06
+6 	 1.2445e-06
+7 	 1.21306e-06
+8 	 1.17777e-06
+Step size increases to 0.012100 after epoch 9.
+9 	 1.1392e-06
+10 	 1.0981e-06
+11 	 1.05099e-06
+12 	 1.00297e-06
+Step size increases to 0.013310 after epoch 13.
+13 	 9.55175e-07
+14 	 9.08583e-07
+15 	 8.59723e-07
+16 	 8.14145e-07
+Step size increases to 0.014641 after epoch 17.
+17 	 7.72373e-07
+18 	 7.34652e-07
+19 	 6.97839e-07
+20 	 6.65722e-07
+Step size increases to 0.016105 after epoch 21.
+21 	 6.37949e-07
+22 	 6.14118e-07
+23 	 5.91958e-07
+24 	 5.73653e-07
+Step size increases to 0.017716 after epoch 25.
+25 	 5.58836e-07
+26 	 5.47178e-07
+27 	 5.37487e-07
+28 	 5.30424e-07
+Step size increases to 0.019487 after epoch 29.
+29 	 5.24727e-07
+30 	 5.18368e-07
+31 	 5.07102e-07
+32 	 4.8684e-07
+Step size increases to 0.021436 after epoch 33.
+33 	 4.534e-07
+34 	 4.05664e-07
+35 	 3.41971e-07
+36 	 2.79195e-07
+Step size increases to 0.023579 after epoch 37.
+37 	 2.3193e-07
+38 	 2.08894e-07
+39 	 2.09597e-07
+40 	 2.21177e-07
+41 	 2.29438e-07
+42 	 2.33996e-07
+43 	 2.3795e-07
+44 	 2.42982e-07
+45 	 2.49746e-07
+46 	 2.58436e-07
+47 	 2.68956e-07
+48 	 2.80956e-07
+49 	 2.93831e-07
+50 	 3.06891e-07
+51 	 3.19466e-07
+52 	 3.31079e-07
+53 	 3.4142e-07
+54 	 3.50419e-07
+55 	 3.58029e-07
+56 	 3.64475e-07
+57 	 3.69644e-07
+58 	 3.74244e-07
+59 	 3.76628e-07
+60 	 3.83685e-07
+61 	 3.66658e-07
+62 	 4.34702e-07
+Step size decreases to 0.021222 after epoch 63.
+63 	 3.59979e-07
+64 	 4.32041e-07
+65 	 3.63421e-07
+66 	 4.28035e-07
+Step size decreases to 0.019099 after epoch 67.
+67 	 3.59835e-07
+68 	 4.25477e-07
+69 	 3.62992e-07
+70 	 4.21863e-07
+Step size decreases to 0.017189 after epoch 71.
+71 	 3.59626e-07
+72 	 4.19393e-07
+73 	 3.6252e-07
+74 	 4.16063e-07
+Step size decreases to 0.015470 after epoch 75.
+75 	 3.59347e-07
+76 	 4.13736e-07
+77 	 3.62021e-07
+78 	 4.10663e-07
+Step size decreases to 0.013923 after epoch 79.
+79 	 3.59044e-07
+80 	 4.08506e-07
+81 	 3.6152e-07
+82 	 4.05649e-07
+Step size decreases to 0.012531 after epoch 83.
+83 	 3.58734e-07
+84 	 4.03665e-07
+85 	 3.61023e-07
+86 	 4.01001e-07
+Step size decreases to 0.011278 after epoch 87.
+87 	 3.58422e-07
+88 	 3.99189e-07
+89 	 3.60532e-07
+90 	 3.96688e-07
+Step size decreases to 0.010150 after epoch 91.
+91 	 3.58105e-07
+92 	 3.95031e-07
+93 	 3.60044e-07
+94 	 3.92674e-07
+Step size decreases to 0.009135 after epoch 95.
+95 	 3.57784e-07
+96 	 3.91166e-07
+97 	 3.59556e-07
+98 	 3.88929e-07
+Step size decreases to 0.008222 after epoch 99.
+99 	 3.57451e-07
+100 	 3.87558e-07
+101 	 3.59067e-07
+102 	 3.85417e-07
+Step size decreases to 0.007399 after epoch 103.
+103 	 3.57104e-07
+104 	 3.8417e-07
+105 	 3.58568e-07
+106 	 3.82115e-07
+Step size decreases to 0.006660 after epoch 107.
+107 	 3.56745e-07
+108 	 3.80985e-07
+109 	 3.58063e-07
+110 	 3.78988e-07
+Step size decreases to 0.005994 after epoch 111.
+111 	 3.56371e-07
+112 	 3.77969e-07
+113 	 3.57549e-07
+114 	 3.76015e-07
+Step size decreases to 0.005394 after epoch 115.
+115 	 3.55982e-07
+116 	 3.75101e-07
+117 	 3.5702e-07
+118 	 3.73167e-07
+Step size decreases to 0.004855 after epoch 119.
+119 	 3.55589e-07
+120 	 3.72358e-07
+121 	 3.56481e-07
+122 	 3.70423e-07
+Step size decreases to 0.004369 after epoch 123.
+123 	 3.55199e-07
+124 	 3.69709e-07
+125 	 3.55937e-07
+126 	 3.67777e-07
+Step size decreases to 0.003932 after epoch 127.
+127 	 3.54838e-07
+128 	 3.67136e-07
+129 	 3.554e-07
+130 	 3.65219e-07
+Step size decreases to 0.003539 after epoch 131.
+131 	 3.54529e-07
+132 	 3.64611e-07
+133 	 3.54895e-07
+134 	 3.62755e-07
+Step size decreases to 0.003185 after epoch 135.
+135 	 3.54305e-07
+136 	 3.62105e-07
+137 	 3.54481e-07
+138 	 3.60392e-07
+Step size decreases to 0.002867 after epoch 139.
+139 	 3.54183e-07
+140 	 3.59615e-07
+141 	 3.54247e-07
+142 	 3.58127e-07
+Step size decreases to 0.002580 after epoch 143.
+143 	 3.54173e-07
+144 	 3.57235e-07
+145 	 3.5421e-07
+146 	 3.5605e-07
+Step size decreases to 0.002322 after epoch 147.
+147 	 3.54196e-07
+148 	 3.55242e-07
+149 	 3.54127e-07
+150 	 3.54501e-07
+Step size decreases to 0.002090 after epoch 151.
+151 	 3.53961e-07
+152 	 3.54003e-07
+153 	 3.53725e-07
+154 	 3.53635e-07
+155 	 3.53467e-07
+Step size increases to 0.002299 after epoch 156.
+156 	 3.53345e-07
+157 	 3.53213e-07
+158 	 3.53084e-07
+159 	 3.5296e-07
+Step size increases to 0.002529 after epoch 160.
+160 	 3.52849e-07
+161 	 3.52744e-07
+162 	 3.52643e-07
+163 	 3.52552e-07
+Step size increases to 0.002782 after epoch 164.
+164 	 3.52478e-07
+165 	 3.52416e-07
+166 	 3.52366e-07
+167 	 3.52328e-07
+Step size increases to 0.003060 after epoch 168.
+168 	 3.52314e-07
+169 	 3.52316e-07
+170 	 3.52337e-07
+171 	 3.52381e-07
+172 	 3.52455e-07
+173 	 3.52546e-07
+174 	 3.52673e-07
+175 	 3.52807e-07
+176 	 3.52992e-07
+177 	 3.53171e-07
+178 	 3.53418e-07
+179 	 3.53638e-07
+180 	 3.5395e-07
+181 	 3.5421e-07
+182 	 3.5459e-07
+183 	 3.54886e-07
+184 	 3.55346e-07
+185 	 3.55665e-07
+186 	 3.56222e-07
+187 	 3.56543e-07
+188 	 3.57224e-07
+189 	 3.57519e-07
+190 	 3.58369e-07
+191 	 3.58574e-07
+192 	 3.59672e-07
+193 	 3.59682e-07
+194 	 3.61173e-07
+195 	 3.60797e-07
+196 	 3.6294e-07
+Step size decreases to 0.002754 after epoch 197.
+197 	 3.61824e-07
+198 	 3.6506e-07
+199 	 3.62912e-07
+200 	 3.66682e-07
+
+Designated epoch number reached. ANFIS training completed at epoch 200.
+
+Minimal training RMSE = 2.08894e-07
+Warning: Generated rule base is large. MATLAB may run out of memory if this FIS is tuned using ANFIS. 
+> In genfis1 (line 162)
+In genfis (line 61)
+In K_Fold_ANFIS_Energy_Efficiency (line 54) 
+
+ANFIS info:
+	Number of nodes: 555
+	Number of linear parameters: 2304
+	Number of nonlinear parameters: 48
+	Total number of parameters: 2352
+	Number of training data pairs: 512
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 256
+
+Warning: Number of training data is smaller than number of modifiable parameters. 
+> In anfis>trainFIS (line 197)
+In anfis>anfisWithOptionalInputs (line 331)
+In anfis (line 70)
+In K_Fold_ANFIS_Energy_Efficiency (line 58) 
+
+Start training ANFIS ...
+
+1 	 1.63475e-06
+2 	 1.60426e-06
+3 	 1.57088e-06
+4 	 1.53445e-06
+Step size increases to 0.011000 after epoch 5.
+5 	 1.49494e-06
+6 	 1.45253e-06
+7 	 1.4029e-06
+8 	 1.3507e-06
+Step size increases to 0.012100 after epoch 9.
+9 	 1.29664e-06
+10 	 1.24147e-06
+11 	 1.18048e-06
+12 	 1.12013e-06
+Step size increases to 0.013310 after epoch 13.
+13 	 1.06135e-06
+14 	 1.00491e-06
+15 	 9.46268e-07
+16 	 8.91765e-07
+Step size increases to 0.014641 after epoch 17.
+17 	 8.41701e-07
+18 	 7.9614e-07
+19 	 7.51056e-07
+20 	 7.1092e-07
+Step size increases to 0.016105 after epoch 21.
+21 	 6.75291e-07
+22 	 6.43718e-07
+23 	 6.1315e-07
+24 	 5.86577e-07
+Step size increases to 0.017716 after epoch 25.
+25 	 5.63709e-07
+26 	 5.44374e-07
+27 	 5.26979e-07
+28 	 5.13553e-07
+Step size increases to 0.019487 after epoch 29.
+29 	 5.03662e-07
+30 	 4.96285e-07
+31 	 4.88594e-07
+32 	 4.77219e-07
+Step size increases to 0.021436 after epoch 33.
+33 	 4.56636e-07
+34 	 4.22648e-07
+35 	 3.71655e-07
+36 	 3.19011e-07
+Step size increases to 0.023579 after epoch 37.
+37 	 2.80949e-07
+38 	 2.638e-07
+39 	 2.64876e-07
+40 	 2.76154e-07
+41 	 2.88379e-07
+42 	 3.00475e-07
+43 	 3.14008e-07
+44 	 3.299e-07
+45 	 3.4846e-07
+46 	 3.69619e-07
+47 	 3.92982e-07
+48 	 4.17768e-07
+49 	 4.42915e-07
+50 	 4.67254e-07
+51 	 4.89772e-07
+52 	 5.09797e-07
+53 	 5.26976e-07
+54 	 5.41283e-07
+55 	 5.52838e-07
+56 	 5.61846e-07
+57 	 5.68689e-07
+58 	 5.73421e-07
+59 	 5.77151e-07
+60 	 5.77248e-07
+61 	 5.87204e-07
+62 	 5.60418e-07
+63 	 5.97022e-07
+Step size decreases to 0.021222 after epoch 64.
+64 	 5.6107e-07
+65 	 5.98116e-07
+66 	 5.63799e-07
+67 	 5.98207e-07
+Step size decreases to 0.019099 after epoch 68.
+68 	 5.63635e-07
+69 	 5.9767e-07
+70 	 5.65989e-07
+71 	 5.9658e-07
+Step size decreases to 0.017189 after epoch 72.
+72 	 5.65277e-07
+73 	 5.9551e-07
+74 	 5.67272e-07
+75 	 5.94115e-07
+Step size decreases to 0.015470 after epoch 76.
+76 	 5.66454e-07
+77 	 5.93172e-07
+78 	 5.68382e-07
+79 	 5.9209e-07
+Step size decreases to 0.013923 after epoch 80.
+80 	 5.67874e-07
+81 	 5.91594e-07
+82 	 5.69942e-07
+83 	 5.91048e-07
+Step size decreases to 0.012531 after epoch 84.
+84 	 5.6992e-07
+85 	 5.91084e-07
+86 	 5.72213e-07
+87 	 5.91106e-07
+Step size decreases to 0.011278 after epoch 88.
+88 	 5.72714e-07
+89 	 5.9168e-07
+90 	 5.75271e-07
+91 	 5.92259e-07
+Step size decreases to 0.010150 after epoch 92.
+92 	 5.76302e-07
+93 	 5.93374e-07
+94 	 5.79157e-07
+95 	 5.94493e-07
+Step size decreases to 0.009135 after epoch 96.
+96 	 5.80719e-07
+97 	 5.96146e-07
+98 	 5.83903e-07
+99 	 5.97805e-07
+Step size decreases to 0.008222 after epoch 100.
+100 	 5.86011e-07
+101 	 6.00008e-07
+102 	 5.89562e-07
+103 	 6.02217e-07
+Step size decreases to 0.007399 after epoch 104.
+104 	 5.92244e-07
+105 	 6.0501e-07
+106 	 5.9622e-07
+107 	 6.07805e-07
+Step size decreases to 0.006660 after epoch 108.
+108 	 5.9953e-07
+109 	 6.11241e-07
+110 	 6.04005e-07
+111 	 6.14683e-07
+Step size decreases to 0.005994 after epoch 112.
+112 	 6.08024e-07
+113 	 6.18853e-07
+114 	 6.13095e-07
+115 	 6.23027e-07
+Step size decreases to 0.005394 after epoch 116.
+116 	 6.17943e-07
+117 	 6.28059e-07
+118 	 6.23746e-07
+119 	 6.33096e-07
+Step size decreases to 0.004855 after epoch 120.
+120 	 6.29585e-07
+121 	 6.3917e-07
+122 	 6.36307e-07
+123 	 6.45255e-07
+Step size decreases to 0.004369 after epoch 124.
+124 	 6.43374e-07
+125 	 6.52627e-07
+126 	 6.51274e-07
+127 	 6.60023e-07
+Step size decreases to 0.003932 after epoch 128.
+128 	 6.59887e-07
+129 	 6.69056e-07
+130 	 6.69353e-07
+131 	 6.78158e-07
+132 	 6.79976e-07
+133 	 6.89375e-07
+134 	 6.91854e-07
+135 	 7.01967e-07
+136 	 7.05272e-07
+137 	 7.16251e-07
+138 	 7.20559e-07
+139 	 7.32598e-07
+140 	 7.38137e-07
+141 	 7.51501e-07
+142 	 7.58581e-07
+143 	 7.73625e-07
+144 	 7.82662e-07
+145 	 7.99884e-07
+146 	 8.11466e-07
+147 	 8.31569e-07
+148 	 8.46531e-07
+149 	 8.70523e-07
+150 	 8.90087e-07
+151 	 9.19433e-07
+152 	 9.45363e-07
+153 	 9.82069e-07
+154 	 1.01667e-06
+155 	 1.06279e-06
+156 	 1.10769e-06
+157 	 1.16211e-06
+158 	 1.21251e-06
+159 	 1.26162e-06
+160 	 1.29661e-06
+161 	 1.31474e-06
+162 	 1.31337e-06
+163 	 1.29856e-06
+164 	 1.28317e-06
+Step size increases to 0.004326 after epoch 165.
+165 	 1.2824e-06
+166 	 1.30253e-06
+167 	 1.32948e-06
+168 	 1.30627e-06
+169 	 1.16836e-06
+170 	 9.10726e-07
+Step size increases to 0.004758 after epoch 171.
+171 	 6.27069e-07
+172 	 4.29169e-07
+173 	 3.27808e-07
+174 	 2.88595e-07
+Step size increases to 0.005234 after epoch 175.
+175 	 2.75727e-07
+176 	 2.74704e-07
+177 	 2.75641e-07
+178 	 2.70411e-07
+179 	 2.72557e-07
+Step size decreases to 0.004711 after epoch 180.
+180 	 2.55713e-07
+181 	 2.75903e-07
+182 	 2.53673e-07
+183 	 2.70627e-07
+Step size decreases to 0.004240 after epoch 184.
+184 	 2.49823e-07
+185 	 2.67263e-07
+186 	 2.48909e-07
+187 	 2.63144e-07
+Step size decreases to 0.003816 after epoch 188.
+188 	 2.45993e-07
+189 	 2.60559e-07
+190 	 2.45377e-07
+191 	 2.57026e-07
+Step size decreases to 0.003434 after epoch 192.
+192 	 2.43078e-07
+193 	 2.54992e-07
+194 	 2.42596e-07
+195 	 2.51897e-07
+Step size decreases to 0.003091 after epoch 196.
+196 	 2.40836e-07
+197 	 2.50235e-07
+198 	 2.40376e-07
+199 	 2.47519e-07
+Step size decreases to 0.002782 after epoch 200.
+200 	 2.39116e-07
+
+Designated epoch number reached. ANFIS training completed at epoch 200.
+
+Minimal training RMSE = 2.39116e-07
+Warning: Generated rule base is large. MATLAB may run out of memory if this FIS is tuned using ANFIS. 
+> In genfis1 (line 162)
+In genfis (line 61)
+In K_Fold_ANFIS_Energy_Efficiency (line 54) 
+
+ANFIS info:
+	Number of nodes: 555
+	Number of linear parameters: 2304
+	Number of nonlinear parameters: 48
+	Total number of parameters: 2352
+	Number of training data pairs: 512
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 256
+
+Warning: Number of training data is smaller than number of modifiable parameters. 
+> In anfis>trainFIS (line 197)
+In anfis>anfisWithOptionalInputs (line 331)
+In anfis (line 70)
+In K_Fold_ANFIS_Energy_Efficiency (line 58) 
+
+Start training ANFIS ...
+
+1 	 1.44963e-06
+2 	 1.43504e-06
+3 	 1.41775e-06
+4 	 1.3971e-06
+Step size increases to 0.011000 after epoch 5.
+5 	 1.37266e-06
+6 	 1.3443e-06
+7 	 1.30872e-06
+8 	 1.26895e-06
+Step size increases to 0.012100 after epoch 9.
+9 	 1.22564e-06
+10 	 1.17959e-06
+11 	 1.12687e-06
+12 	 1.07313e-06
+Step size increases to 0.013310 after epoch 13.
+13 	 1.0195e-06
+14 	 9.67e-07
+15 	 9.11563e-07
+16 	 8.59337e-07
+Step size increases to 0.014641 after epoch 17.
+17 	 8.10841e-07
+18 	 7.66299e-07
+19 	 7.21826e-07
+20 	 6.81838e-07
+Step size increases to 0.016105 after epoch 21.
+21 	 6.45917e-07
+22 	 6.13607e-07
+23 	 5.81695e-07
+24 	 5.53216e-07
+Step size increases to 0.017716 after epoch 25.
+25 	 5.27887e-07
+26 	 5.0556e-07
+27 	 4.8433e-07
+28 	 4.66612e-07
+Step size increases to 0.019487 after epoch 29.
+29 	 4.52165e-07
+30 	 4.40285e-07
+31 	 4.28314e-07
+32 	 4.14354e-07
+Step size increases to 0.021436 after epoch 33.
+33 	 3.93983e-07
+34 	 3.63245e-07
+35 	 3.16984e-07
+36 	 2.65228e-07
+Step size increases to 0.023579 after epoch 37.
+37 	 2.21522e-07
+38 	 1.96119e-07
+39 	 1.90036e-07
+40 	 1.94622e-07
+41 	 1.98005e-07
+42 	 1.99063e-07
+43 	 1.99868e-07
+44 	 2.01625e-07
+45 	 2.0481e-07
+46 	 2.09566e-07
+47 	 2.15851e-07
+48 	 2.2339e-07
+49 	 2.31752e-07
+50 	 2.40422e-07
+51 	 2.48867e-07
+52 	 2.56693e-07
+53 	 2.63635e-07
+54 	 2.69579e-07
+55 	 2.74453e-07
+56 	 2.78391e-07
+57 	 2.81245e-07
+58 	 2.83688e-07
+59 	 2.84079e-07
+60 	 2.89299e-07
+61 	 2.72668e-07
+62 	 3.08751e-07
+Step size decreases to 0.021222 after epoch 63.
+63 	 2.71584e-07
+64 	 3.08169e-07
+65 	 2.73603e-07
+66 	 3.06962e-07
+Step size decreases to 0.019099 after epoch 67.
+67 	 2.71948e-07
+68 	 3.05625e-07
+69 	 2.73525e-07
+70 	 3.04085e-07
+Step size decreases to 0.017189 after epoch 71.
+71 	 2.71639e-07
+72 	 3.02667e-07
+73 	 2.73034e-07
+74 	 3.01164e-07
+Step size decreases to 0.015470 after epoch 75.
+75 	 2.71209e-07
+76 	 2.9984e-07
+77 	 2.72519e-07
+78 	 2.98447e-07
+Step size decreases to 0.013923 after epoch 79.
+79 	 2.70825e-07
+80 	 2.97252e-07
+81 	 2.72076e-07
+82 	 2.95959e-07
+Step size decreases to 0.012531 after epoch 83.
+83 	 2.70515e-07
+84 	 2.94899e-07
+85 	 2.71718e-07
+86 	 2.93689e-07
+Step size decreases to 0.011278 after epoch 87.
+87 	 2.70283e-07
+88 	 2.92748e-07
+89 	 2.71433e-07
+90 	 2.91603e-07
+Step size decreases to 0.010150 after epoch 91.
+91 	 2.70114e-07
+92 	 2.90774e-07
+93 	 2.71212e-07
+94 	 2.89685e-07
+Step size decreases to 0.009135 after epoch 95.
+95 	 2.69997e-07
+96 	 2.88955e-07
+97 	 2.71039e-07
+98 	 2.87906e-07
+Step size decreases to 0.008222 after epoch 99.
+99 	 2.69917e-07
+100 	 2.87264e-07
+101 	 2.70904e-07
+102 	 2.86251e-07
+Step size decreases to 0.007399 after epoch 103.
+103 	 2.69871e-07
+104 	 2.85686e-07
+105 	 2.70797e-07
+106 	 2.84698e-07
+Step size decreases to 0.006660 after epoch 107.
+107 	 2.69848e-07
+108 	 2.84208e-07
+109 	 2.70717e-07
+110 	 2.83235e-07
+Step size decreases to 0.005994 after epoch 111.
+111 	 2.69844e-07
+112 	 2.82817e-07
+113 	 2.70657e-07
+114 	 2.81852e-07
+Step size decreases to 0.005394 after epoch 115.
+115 	 2.69863e-07
+116 	 2.81499e-07
+117 	 2.70614e-07
+118 	 2.80533e-07
+Step size decreases to 0.004855 after epoch 119.
+119 	 2.69902e-07
+120 	 2.80246e-07
+121 	 2.70587e-07
+122 	 2.79266e-07
+Step size decreases to 0.004369 after epoch 123.
+123 	 2.6997e-07
+124 	 2.79039e-07
+125 	 2.70578e-07
+126 	 2.78047e-07
+Step size decreases to 0.003932 after epoch 127.
+127 	 2.70078e-07
+128 	 2.77869e-07
+129 	 2.70593e-07
+130 	 2.76873e-07
+Step size decreases to 0.003539 after epoch 131.
+131 	 2.70243e-07
+132 	 2.76712e-07
+133 	 2.7065e-07
+134 	 2.75749e-07
+Step size decreases to 0.003185 after epoch 135.
+135 	 2.70485e-07
+136 	 2.7556e-07
+137 	 2.70791e-07
+138 	 2.74677e-07
+Step size decreases to 0.002867 after epoch 139.
+139 	 2.70816e-07
+140 	 2.744e-07
+141 	 2.71064e-07
+142 	 2.73652e-07
+Step size decreases to 0.002580 after epoch 143.
+143 	 2.71233e-07
+144 	 2.73289e-07
+145 	 2.71469e-07
+146 	 2.72731e-07
+Step size decreases to 0.002322 after epoch 147.
+147 	 2.7167e-07
+148 	 2.72421e-07
+149 	 2.71824e-07
+150 	 2.7214e-07
+Step size decreases to 0.002090 after epoch 151.
+151 	 2.71904e-07
+152 	 2.72019e-07
+153 	 2.71933e-07
+154 	 2.71959e-07
+Step size decreases to 0.001881 after epoch 155.
+155 	 2.71941e-07
+156 	 2.7195e-07
+157 	 2.71955e-07
+158 	 2.71968e-07
+159 	 2.71982e-07
+160 	 2.72001e-07
+161 	 2.72024e-07
+162 	 2.72053e-07
+163 	 2.72086e-07
+164 	 2.72124e-07
+165 	 2.72164e-07
+166 	 2.72214e-07
+167 	 2.72266e-07
+168 	 2.72325e-07
+169 	 2.72388e-07
+170 	 2.72458e-07
+171 	 2.72534e-07
+172 	 2.72615e-07
+173 	 2.727e-07
+174 	 2.72792e-07
+175 	 2.72891e-07
+176 	 2.72995e-07
+177 	 2.73106e-07
+178 	 2.73222e-07
+179 	 2.73343e-07
+180 	 2.73474e-07
+181 	 2.73609e-07
+182 	 2.73753e-07
+183 	 2.73902e-07
+184 	 2.74057e-07
+185 	 2.7422e-07
+186 	 2.74388e-07
+187 	 2.74563e-07
+188 	 2.74747e-07
+189 	 2.74936e-07
+190 	 2.75132e-07
+191 	 2.75336e-07
+192 	 2.75546e-07
+193 	 2.75763e-07
+194 	 2.75988e-07
+195 	 2.76218e-07
+196 	 2.76456e-07
+197 	 2.76702e-07
+198 	 2.76953e-07
+199 	 2.77216e-07
+200 	 2.77486e-07
+
+Designated epoch number reached. ANFIS training completed at epoch 200.
+
+Minimal training RMSE = 1.90036e-07
+Average MAE: 3.8521e-07
+Average MSE: 5.784e-13
+Average MRE: 2.7213e-06
+Elapsed time is 6845.297446 seconds.

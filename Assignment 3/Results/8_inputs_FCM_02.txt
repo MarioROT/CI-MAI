@@ -1,0 +1,2791 @@
+Iteration count = 1, obj. fcn = 6.9867
+Iteration count = 2, obj. fcn = 5.24003
+Iteration count = 3, obj. fcn = 5.19637
+Iteration count = 4, obj. fcn = 5.02966
+Iteration count = 5, obj. fcn = 4.67481
+Iteration count = 6, obj. fcn = 4.36396
+Iteration count = 7, obj. fcn = 4.2025
+Iteration count = 8, obj. fcn = 4.12078
+Iteration count = 9, obj. fcn = 4.0791
+Iteration count = 10, obj. fcn = 4.06475
+Iteration count = 11, obj. fcn = 4.06035
+Iteration count = 12, obj. fcn = 4.05893
+Iteration count = 13, obj. fcn = 4.05838
+Iteration count = 14, obj. fcn = 4.05797
+Iteration count = 15, obj. fcn = 4.05758
+Iteration count = 16, obj. fcn = 4.05717
+Iteration count = 17, obj. fcn = 4.05672
+Iteration count = 18, obj. fcn = 4.05621
+Iteration count = 19, obj. fcn = 4.05561
+Iteration count = 20, obj. fcn = 4.05492
+Iteration count = 21, obj. fcn = 4.05412
+Iteration count = 22, obj. fcn = 4.05321
+Iteration count = 23, obj. fcn = 4.05222
+Iteration count = 24, obj. fcn = 4.05118
+Iteration count = 25, obj. fcn = 4.05015
+Iteration count = 26, obj. fcn = 4.04917
+Iteration count = 27, obj. fcn = 4.04829
+Iteration count = 28, obj. fcn = 4.04753
+Iteration count = 29, obj. fcn = 4.04689
+Iteration count = 30, obj. fcn = 4.04636
+Iteration count = 31, obj. fcn = 4.04591
+Iteration count = 32, obj. fcn = 4.04553
+Iteration count = 33, obj. fcn = 4.04522
+Iteration count = 34, obj. fcn = 4.04495
+Iteration count = 35, obj. fcn = 4.04473
+Iteration count = 36, obj. fcn = 4.04453
+Iteration count = 37, obj. fcn = 4.04435
+Iteration count = 38, obj. fcn = 4.04419
+Iteration count = 39, obj. fcn = 4.04403
+Iteration count = 40, obj. fcn = 4.04387
+Iteration count = 41, obj. fcn = 4.0437
+Iteration count = 42, obj. fcn = 4.04352
+Iteration count = 43, obj. fcn = 4.04333
+Iteration count = 44, obj. fcn = 4.0431
+Iteration count = 45, obj. fcn = 4.04284
+Iteration count = 46, obj. fcn = 4.04253
+Iteration count = 47, obj. fcn = 4.04214
+Iteration count = 48, obj. fcn = 4.04167
+Iteration count = 49, obj. fcn = 4.04113
+Iteration count = 50, obj. fcn = 4.04062
+Iteration count = 51, obj. fcn = 4.04014
+Iteration count = 52, obj. fcn = 4.03961
+Iteration count = 53, obj. fcn = 4.03906
+Iteration count = 54, obj. fcn = 4.03852
+Iteration count = 55, obj. fcn = 4.03799
+Iteration count = 56, obj. fcn = 4.03742
+Iteration count = 57, obj. fcn = 4.03689
+Iteration count = 58, obj. fcn = 4.03651
+Iteration count = 59, obj. fcn = 4.03607
+Iteration count = 60, obj. fcn = 4.03557
+Iteration count = 61, obj. fcn = 4.03532
+Iteration count = 62, obj. fcn = 4.03516
+Iteration count = 63, obj. fcn = 4.035
+Iteration count = 64, obj. fcn = 4.03483
+Iteration count = 65, obj. fcn = 4.03465
+Iteration count = 66, obj. fcn = 4.03443
+Iteration count = 67, obj. fcn = 4.03416
+Iteration count = 68, obj. fcn = 4.03378
+Iteration count = 69, obj. fcn = 4.03325
+Iteration count = 70, obj. fcn = 4.03257
+Iteration count = 71, obj. fcn = 4.03194
+Iteration count = 72, obj. fcn = 4.03148
+Iteration count = 73, obj. fcn = 4.03112
+Iteration count = 74, obj. fcn = 4.03072
+Iteration count = 75, obj. fcn = 4.03013
+Iteration count = 76, obj. fcn = 4.0292
+Iteration count = 77, obj. fcn = 4.02808
+Iteration count = 78, obj. fcn = 4.02721
+Iteration count = 79, obj. fcn = 4.02657
+Iteration count = 80, obj. fcn = 4.02594
+Iteration count = 81, obj. fcn = 4.02536
+Iteration count = 82, obj. fcn = 4.02458
+Iteration count = 83, obj. fcn = 4.02312
+Iteration count = 84, obj. fcn = 4.0216
+Iteration count = 85, obj. fcn = 4.02072
+Iteration count = 86, obj. fcn = 4.02041
+Iteration count = 87, obj. fcn = 4.02009
+Iteration count = 88, obj. fcn = 4.0195
+Iteration count = 89, obj. fcn = 4.01878
+Iteration count = 90, obj. fcn = 4.01845
+Iteration count = 91, obj. fcn = 4.01813
+Iteration count = 92, obj. fcn = 4.01775
+Iteration count = 93, obj. fcn = 4.01729
+Iteration count = 94, obj. fcn = 4.01681
+Iteration count = 95, obj. fcn = 4.01638
+Iteration count = 96, obj. fcn = 4.01597
+Iteration count = 97, obj. fcn = 4.01539
+Iteration count = 98, obj. fcn = 4.01458
+Iteration count = 99, obj. fcn = 4.01376
+Iteration count = 100, obj. fcn = 4.01252
+Maximum iteration reached.
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+
+ANFIS info:
+	Number of nodes: 1757
+	Number of linear parameters: 873
+	Number of nonlinear parameters: 1552
+	Total number of parameters: 2425
+	Number of training data pairs: 512
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 97
+
+Warning: Number of training data is smaller than number of modifiable parameters. 
+> In anfis>trainFIS (line 197)
+In anfis>anfisWithOptionalInputs (line 331)
+In anfis (line 70)
+In K_Fold_ANFIS_Energy_Efficiency (line 58) 
+
+Start training ANFIS ...
+
+1 	 4.33716e-06
+2 	 5.85901e-06
+3 	 6.36457e-06
+4 	 4.01731e-06
+5 	 3.5697e-06
+6 	 3.2165e-06
+7 	 3.61859e-06
+8 	 3.55047e-06
+9 	 3.37809e-06
+10 	 3.35442e-06
+Step size increases to 0.011000 after epoch 11.
+11 	 3.30006e-06
+12 	 3.39207e-06
+13 	 3.31825e-06
+14 	 3.48242e-06
+Step size decreases to 0.009900 after epoch 15.
+15 	 3.40663e-06
+16 	 3.49772e-06
+17 	 3.26711e-06
+18 	 3.21622e-06
+19 	 3.23755e-06
+20 	 3.17666e-06
+21 	 3.46992e-06
+Step size decreases to 0.008910 after epoch 22.
+22 	 3.3568e-06
+23 	 3.29031e-06
+24 	 3.0315e-06
+25 	 3.05353e-06
+26 	 3.3245e-06
+27 	 3.10955e-06
+28 	 3.12293e-06
+29 	 3.32244e-06
+30 	 2.72768e-06
+31 	 2.99254e-06
+32 	 3.06161e-06
+33 	 2.70948e-06
+34 	 3.04842e-06
+35 	 3.12111e-06
+36 	 2.96296e-06
+37 	 3.27738e-06
+Step size decreases to 0.008019 after epoch 38.
+38 	 2.55089e-06
+39 	 3.05675e-06
+40 	 3.0119e-06
+41 	 2.77215e-06
+42 	 3.35055e-06
+43 	 3.0608e-06
+44 	 2.58062e-06
+45 	 3.21381e-06
+46 	 2.77906e-06
+47 	 3.21688e-06
+Step size decreases to 0.007217 after epoch 48.
+48 	 3.16726e-06
+49 	 2.81958e-06
+50 	 3.00496e-06
+51 	 2.9995e-06
+52 	 2.83066e-06
+53 	 2.70488e-06
+54 	 3.31544e-06
+55 	 2.51665e-06
+56 	 3.31882e-06
+Step size decreases to 0.006495 after epoch 57.
+57 	 2.6965e-06
+58 	 3.1807e-06
+59 	 2.58392e-06
+60 	 3.03537e-06
+Step size decreases to 0.005846 after epoch 61.
+61 	 2.63513e-06
+62 	 2.55276e-06
+63 	 2.4048e-06
+64 	 2.76373e-06
+65 	 2.32453e-06
+66 	 2.53894e-06
+Step size decreases to 0.005261 after epoch 67.
+67 	 2.41325e-06
+68 	 2.60301e-06
+69 	 2.3657e-06
+70 	 2.45745e-06
+Step size decreases to 0.004735 after epoch 71.
+71 	 2.38023e-06
+72 	 2.43013e-06
+73 	 2.3885e-06
+74 	 2.53107e-06
+Step size decreases to 0.004262 after epoch 75.
+75 	 2.08953e-06
+76 	 2.39662e-06
+77 	 2.27523e-06
+78 	 2.20806e-06
+79 	 2.20593e-06
+80 	 2.22889e-06
+81 	 2.18886e-06
+82 	 2.34454e-06
+Step size decreases to 0.003835 after epoch 83.
+83 	 2.22991e-06
+84 	 2.03053e-06
+85 	 2.32662e-06
+86 	 2.06635e-06
+87 	 2.37545e-06
+Step size decreases to 0.003452 after epoch 88.
+88 	 2.17847e-06
+89 	 2.38579e-06
+90 	 2.03576e-06
+91 	 2.18335e-06
+92 	 2.21756e-06
+93 	 2.27818e-06
+94 	 1.91856e-06
+95 	 2.19189e-06
+Step size decreases to 0.003107 after epoch 96.
+96 	 2.0739e-06
+97 	 2.02843e-06
+98 	 2.15065e-06
+99 	 2.0869e-06
+100 	 2.19714e-06
+Step size decreases to 0.002796 after epoch 101.
+101 	 1.95632e-06
+102 	 2.21664e-06
+103 	 2.00796e-06
+104 	 2.05597e-06
+105 	 2.14288e-06
+106 	 1.88945e-06
+107 	 2.24136e-06
+Step size decreases to 0.002516 after epoch 108.
+108 	 2.05291e-06
+109 	 1.9315e-06
+110 	 2.0926e-06
+111 	 1.94702e-06
+112 	 2.09334e-06
+Step size decreases to 0.002265 after epoch 113.
+113 	 1.97783e-06
+114 	 2.05972e-06
+115 	 1.84721e-06
+116 	 2.04263e-06
+Step size decreases to 0.002038 after epoch 117.
+117 	 1.91251e-06
+118 	 1.87341e-06
+119 	 2.11815e-06
+120 	 1.81302e-06
+121 	 1.89403e-06
+122 	 2.00412e-06
+123 	 1.89477e-06
+124 	 1.96324e-06
+Step size decreases to 0.001834 after epoch 125.
+125 	 1.9423e-06
+126 	 1.91556e-06
+127 	 1.94764e-06
+128 	 1.9577e-06
+129 	 1.93173e-06
+130 	 1.99622e-06
+Step size decreases to 0.001651 after epoch 131.
+131 	 1.91983e-06
+132 	 1.99552e-06
+133 	 1.90642e-06
+134 	 1.96129e-06
+Step size decreases to 0.001486 after epoch 135.
+135 	 1.90711e-06
+136 	 1.96483e-06
+137 	 1.87637e-06
+138 	 1.93303e-06
+Step size decreases to 0.001337 after epoch 139.
+139 	 1.87394e-06
+140 	 1.9354e-06
+141 	 1.84218e-06
+142 	 1.91112e-06
+Step size decreases to 0.001204 after epoch 143.
+143 	 1.83924e-06
+144 	 1.91404e-06
+145 	 1.80128e-06
+146 	 1.89637e-06
+Step size decreases to 0.001083 after epoch 147.
+147 	 1.80037e-06
+148 	 1.89698e-06
+149 	 1.75606e-06
+150 	 1.88536e-06
+Step size decreases to 0.000975 after epoch 151.
+151 	 1.76128e-06
+152 	 1.88131e-06
+153 	 1.71666e-06
+154 	 1.87203e-06
+Step size decreases to 0.000877 after epoch 155.
+155 	 1.72763e-06
+156 	 1.8642e-06
+157 	 1.68722e-06
+158 	 1.85352e-06
+Step size decreases to 0.000790 after epoch 159.
+159 	 1.70173e-06
+160 	 1.8428e-06
+161 	 1.66653e-06
+162 	 1.82886e-06
+Step size decreases to 0.000711 after epoch 163.
+163 	 1.6825e-06
+164 	 1.81563e-06
+165 	 1.65176e-06
+166 	 1.79819e-06
+Step size decreases to 0.000640 after epoch 167.
+167 	 1.66754e-06
+168 	 1.78278e-06
+169 	 1.64019e-06
+170 	 1.76265e-06
+Step size decreases to 0.000576 after epoch 171.
+171 	 1.65462e-06
+172 	 1.74589e-06
+173 	 1.6298e-06
+174 	 1.72458e-06
+Step size decreases to 0.000518 after epoch 175.
+175 	 1.64215e-06
+176 	 1.70775e-06
+177 	 1.61925e-06
+178 	 1.68694e-06
+Step size decreases to 0.000466 after epoch 179.
+179 	 1.62909e-06
+180 	 1.67127e-06
+181 	 1.60769e-06
+182 	 1.6522e-06
+Step size decreases to 0.000420 after epoch 183.
+183 	 1.61475e-06
+184 	 1.63842e-06
+185 	 1.59461e-06
+186 	 1.6215e-06
+Step size decreases to 0.000378 after epoch 187.
+187 	 1.59868e-06
+188 	 1.60955e-06
+189 	 1.57964e-06
+190 	 1.59434e-06
+Step size decreases to 0.000340 after epoch 191.
+191 	 1.58031e-06
+192 	 1.58337e-06
+193 	 1.56236e-06
+194 	 1.56918e-06
+Step size decreases to 0.000306 after epoch 195.
+195 	 1.55932e-06
+196 	 1.55881e-06
+197 	 1.54413e-06
+198 	 1.54704e-06
+199 	 1.53986e-06
+200 	 1.53953e-06
+
+Designated epoch number reached. ANFIS training completed at epoch 200.
+
+Minimal training RMSE = 1.53953e-06
+Iteration count = 1, obj. fcn = 6.87396
+Iteration count = 2, obj. fcn = 5.14738
+Iteration count = 3, obj. fcn = 5.11
+Iteration count = 4, obj. fcn = 4.96484
+Iteration count = 5, obj. fcn = 4.63165
+Iteration count = 6, obj. fcn = 4.29981
+Iteration count = 7, obj. fcn = 4.12386
+Iteration count = 8, obj. fcn = 4.04392
+Iteration count = 9, obj. fcn = 4.00542
+Iteration count = 10, obj. fcn = 3.98075
+Iteration count = 11, obj. fcn = 3.96567
+Iteration count = 12, obj. fcn = 3.96127
+Iteration count = 13, obj. fcn = 3.96027
+Iteration count = 14, obj. fcn = 3.95973
+Iteration count = 15, obj. fcn = 3.95932
+Iteration count = 16, obj. fcn = 3.95898
+Iteration count = 17, obj. fcn = 3.95868
+Iteration count = 18, obj. fcn = 3.95839
+Iteration count = 19, obj. fcn = 3.95811
+Iteration count = 20, obj. fcn = 3.95782
+Iteration count = 21, obj. fcn = 3.95751
+Iteration count = 22, obj. fcn = 3.95717
+Iteration count = 23, obj. fcn = 3.95677
+Iteration count = 24, obj. fcn = 3.95631
+Iteration count = 25, obj. fcn = 3.95576
+Iteration count = 26, obj. fcn = 3.95514
+Iteration count = 27, obj. fcn = 3.95444
+Iteration count = 28, obj. fcn = 3.95369
+Iteration count = 29, obj. fcn = 3.9529
+Iteration count = 30, obj. fcn = 3.9521
+Iteration count = 31, obj. fcn = 3.95126
+Iteration count = 32, obj. fcn = 3.95036
+Iteration count = 33, obj. fcn = 3.94936
+Iteration count = 34, obj. fcn = 3.94825
+Iteration count = 35, obj. fcn = 3.94699
+Iteration count = 36, obj. fcn = 3.94549
+Iteration count = 37, obj. fcn = 3.94379
+Iteration count = 38, obj. fcn = 3.94226
+Iteration count = 39, obj. fcn = 3.94111
+Iteration count = 40, obj. fcn = 3.93987
+Iteration count = 41, obj. fcn = 3.93839
+Iteration count = 42, obj. fcn = 3.93675
+Iteration count = 43, obj. fcn = 3.93523
+Iteration count = 44, obj. fcn = 3.93429
+Iteration count = 45, obj. fcn = 3.9335
+Iteration count = 46, obj. fcn = 3.93253
+Iteration count = 47, obj. fcn = 3.93145
+Iteration count = 48, obj. fcn = 3.93065
+Iteration count = 49, obj. fcn = 3.92998
+Iteration count = 50, obj. fcn = 3.92925
+Iteration count = 51, obj. fcn = 3.9283
+Iteration count = 52, obj. fcn = 3.92685
+Iteration count = 53, obj. fcn = 3.92472
+Iteration count = 54, obj. fcn = 3.92285
+Iteration count = 55, obj. fcn = 3.92196
+Iteration count = 56, obj. fcn = 3.92157
+Iteration count = 57, obj. fcn = 3.92127
+Iteration count = 58, obj. fcn = 3.92097
+Iteration count = 59, obj. fcn = 3.92063
+Iteration count = 60, obj. fcn = 3.9202
+Iteration count = 61, obj. fcn = 3.91959
+Iteration count = 62, obj. fcn = 3.91863
+Iteration count = 63, obj. fcn = 3.9173
+Iteration count = 64, obj. fcn = 3.91639
+Iteration count = 65, obj. fcn = 3.91577
+Iteration count = 66, obj. fcn = 3.91483
+Iteration count = 67, obj. fcn = 3.91391
+Iteration count = 68, obj. fcn = 3.91312
+Iteration count = 69, obj. fcn = 3.9124
+Iteration count = 70, obj. fcn = 3.91206
+Iteration count = 71, obj. fcn = 3.9118
+Iteration count = 72, obj. fcn = 3.91137
+Iteration count = 73, obj. fcn = 3.91048
+Iteration count = 74, obj. fcn = 3.90909
+Iteration count = 75, obj. fcn = 3.90836
+Iteration count = 76, obj. fcn = 3.90807
+Iteration count = 77, obj. fcn = 3.90762
+Iteration count = 78, obj. fcn = 3.90697
+Iteration count = 79, obj. fcn = 3.90656
+Iteration count = 80, obj. fcn = 3.90641
+Iteration count = 81, obj. fcn = 3.90626
+Iteration count = 82, obj. fcn = 3.90601
+Iteration count = 83, obj. fcn = 3.90554
+Iteration count = 84, obj. fcn = 3.90467
+Iteration count = 85, obj. fcn = 3.90372
+Iteration count = 86, obj. fcn = 3.90263
+Iteration count = 87, obj. fcn = 3.90152
+Iteration count = 88, obj. fcn = 3.901
+Iteration count = 89, obj. fcn = 3.90079
+Iteration count = 90, obj. fcn = 3.90063
+Iteration count = 91, obj. fcn = 3.90045
+Iteration count = 92, obj. fcn = 3.90022
+Iteration count = 93, obj. fcn = 3.89994
+Iteration count = 94, obj. fcn = 3.89958
+Iteration count = 95, obj. fcn = 3.89915
+Iteration count = 96, obj. fcn = 3.89868
+Iteration count = 97, obj. fcn = 3.8982
+Iteration count = 98, obj. fcn = 3.89761
+Iteration count = 99, obj. fcn = 3.89672
+Iteration count = 100, obj. fcn = 3.89583
+Maximum iteration reached.
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+
+ANFIS info:
+	Number of nodes: 1811
+	Number of linear parameters: 900
+	Number of nonlinear parameters: 1600
+	Total number of parameters: 2500
+	Number of training data pairs: 512
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 100
+
+Warning: Number of training data is smaller than number of modifiable parameters. 
+> In anfis>trainFIS (line 197)
+In anfis>anfisWithOptionalInputs (line 331)
+In anfis (line 70)
+In K_Fold_ANFIS_Energy_Efficiency (line 58) 
+
+Start training ANFIS ...
+
+1 	 4.79193e-06
+2 	 5.43986e-06
+3 	 4.22657e-06
+4 	 3.27133e-06
+5 	 2.90258e-06
+6 	 3.25202e-06
+7 	 3.46556e-06
+8 	 3.59338e-06
+9 	 2.98565e-06
+10 	 3.05747e-06
+11 	 3.08051e-06
+12 	 2.93854e-06
+13 	 3.84714e-06
+Step size decreases to 0.009000 after epoch 14.
+14 	 2.99566e-06
+15 	 3.03088e-06
+16 	 2.9275e-06
+17 	 2.78817e-06
+18 	 2.50538e-06
+19 	 2.83481e-06
+20 	 2.60281e-06
+21 	 2.54314e-06
+22 	 2.62173e-06
+23 	 2.30287e-06
+24 	 2.69216e-06
+Step size decreases to 0.008100 after epoch 25.
+25 	 2.50266e-06
+26 	 2.32215e-06
+27 	 2.22547e-06
+Step size increases to 0.008910 after epoch 28.
+28 	 2.12441e-06
+29 	 2.21821e-06
+30 	 2.31766e-06
+31 	 2.02343e-06
+32 	 2.44621e-06
+Step size decreases to 0.008019 after epoch 33.
+33 	 2.0264e-06
+34 	 2.23916e-06
+35 	 1.97658e-06
+36 	 2.43258e-06
+Step size decreases to 0.007217 after epoch 37.
+37 	 1.79478e-06
+38 	 2.37365e-06
+39 	 1.96871e-06
+40 	 2.10354e-06
+41 	 2.36934e-06
+42 	 2.14754e-06
+43 	 2.32411e-06
+Step size decreases to 0.006495 after epoch 44.
+44 	 2.20223e-06
+45 	 2.09846e-06
+46 	 2.55587e-06
+47 	 1.97371e-06
+48 	 2.18679e-06
+49 	 2.25614e-06
+50 	 2.0486e-06
+51 	 2.04724e-06
+52 	 2.12748e-06
+53 	 2.16197e-06
+54 	 2.04611e-06
+55 	 1.98305e-06
+56 	 2.33597e-06
+57 	 1.97281e-06
+58 	 2.36054e-06
+Step size decreases to 0.005846 after epoch 59.
+59 	 1.91496e-06
+60 	 1.9507e-06
+61 	 1.98773e-06
+62 	 2.05399e-06
+63 	 1.79852e-06
+64 	 2.09922e-06
+Step size decreases to 0.005261 after epoch 65.
+65 	 1.78243e-06
+66 	 1.90988e-06
+67 	 1.83097e-06
+68 	 1.76901e-06
+69 	 1.82315e-06
+70 	 1.75184e-06
+71 	 1.74954e-06
+72 	 2.04155e-06
+73 	 1.89081e-06
+74 	 1.689e-06
+75 	 1.95326e-06
+76 	 1.81952e-06
+77 	 2.05118e-06
+Step size decreases to 0.004735 after epoch 78.
+78 	 1.75323e-06
+79 	 1.81731e-06
+80 	 1.7937e-06
+81 	 2.11346e-06
+Step size decreases to 0.004262 after epoch 82.
+82 	 1.85749e-06
+83 	 2.17286e-06
+84 	 1.64182e-06
+85 	 1.82013e-06
+86 	 1.93908e-06
+87 	 1.72076e-06
+88 	 1.84171e-06
+Step size decreases to 0.003835 after epoch 89.
+89 	 1.83552e-06
+90 	 1.79066e-06
+91 	 1.93254e-06
+92 	 1.55273e-06
+93 	 1.83122e-06
+Step size decreases to 0.003452 after epoch 94.
+94 	 1.73053e-06
+95 	 1.70027e-06
+96 	 1.63426e-06
+97 	 1.78263e-06
+98 	 1.78667e-06
+99 	 1.70049e-06
+100 	 1.93047e-06
+Step size decreases to 0.003107 after epoch 101.
+101 	 1.60555e-06
+102 	 1.82692e-06
+103 	 1.72965e-06
+104 	 1.7561e-06
+105 	 1.84906e-06
+106 	 1.51263e-06
+107 	 1.93101e-06
+Step size decreases to 0.002796 after epoch 108.
+108 	 1.79322e-06
+109 	 1.5992e-06
+110 	 1.80614e-06
+111 	 1.80765e-06
+112 	 1.62371e-06
+113 	 1.73548e-06
+114 	 1.93783e-06
+115 	 1.64081e-06
+116 	 1.76997e-06
+Step size decreases to 0.002516 after epoch 117.
+117 	 1.68657e-06
+118 	 1.89479e-06
+119 	 1.6264e-06
+120 	 1.88639e-06
+Step size decreases to 0.002265 after epoch 121.
+121 	 1.66778e-06
+122 	 1.56165e-06
+123 	 1.90612e-06
+124 	 1.53667e-06
+125 	 1.77968e-06
+Step size decreases to 0.002038 after epoch 126.
+126 	 1.71427e-06
+127 	 1.57212e-06
+128 	 1.61243e-06
+129 	 1.76454e-06
+130 	 1.53315e-06
+131 	 1.70936e-06
+132 	 1.80024e-06
+133 	 1.61362e-06
+134 	 1.64473e-06
+135 	 1.73184e-06
+136 	 1.67314e-06
+137 	 1.78416e-06
+138 	 1.89285e-06
+139 	 1.74263e-06
+140 	 1.91589e-06
+Step size decreases to 0.001834 after epoch 141.
+141 	 1.68974e-06
+142 	 1.90418e-06
+143 	 1.6358e-06
+144 	 1.87781e-06
+Step size decreases to 0.001651 after epoch 145.
+145 	 1.64903e-06
+146 	 1.83323e-06
+147 	 1.62829e-06
+148 	 1.8257e-06
+Step size decreases to 0.001486 after epoch 149.
+149 	 1.63372e-06
+150 	 1.79348e-06
+151 	 1.62652e-06
+152 	 1.80516e-06
+Step size decreases to 0.001337 after epoch 153.
+153 	 1.62596e-06
+154 	 1.7869e-06
+155 	 1.62035e-06
+156 	 1.79118e-06
+Step size decreases to 0.001204 after epoch 157.
+157 	 1.62276e-06
+158 	 1.77152e-06
+159 	 1.62413e-06
+160 	 1.7709e-06
+Step size decreases to 0.001083 after epoch 161.
+161 	 1.6328e-06
+162 	 1.75688e-06
+163 	 1.63763e-06
+164 	 1.75863e-06
+Step size decreases to 0.000975 after epoch 165.
+165 	 1.65399e-06
+166 	 1.7543e-06
+167 	 1.6657e-06
+168 	 1.76522e-06
+Step size decreases to 0.000877 after epoch 169.
+169 	 1.69525e-06
+170 	 1.7746e-06
+171 	 1.71601e-06
+172 	 1.77899e-06
+Step size decreases to 0.000790 after epoch 173.
+173 	 1.72098e-06
+174 	 1.76278e-06
+175 	 1.69195e-06
+176 	 1.74429e-06
+Step size decreases to 0.000711 after epoch 177.
+177 	 1.6809e-06
+178 	 1.72482e-06
+179 	 1.65243e-06
+180 	 1.71233e-06
+Step size decreases to 0.000640 after epoch 181.
+181 	 1.64632e-06
+182 	 1.69779e-06
+183 	 1.61973e-06
+184 	 1.68696e-06
+Step size decreases to 0.000576 after epoch 185.
+185 	 1.61679e-06
+186 	 1.67461e-06
+187 	 1.59212e-06
+188 	 1.6639e-06
+Step size decreases to 0.000518 after epoch 189.
+189 	 1.59136e-06
+190 	 1.65247e-06
+191 	 1.56919e-06
+192 	 1.64121e-06
+Step size decreases to 0.000466 after epoch 193.
+193 	 1.56998e-06
+194 	 1.63023e-06
+195 	 1.55077e-06
+196 	 1.61844e-06
+Step size decreases to 0.000420 after epoch 197.
+197 	 1.5526e-06
+198 	 1.60801e-06
+199 	 1.53643e-06
+200 	 1.59622e-06
+
+Designated epoch number reached. ANFIS training completed at epoch 200.
+
+Minimal training RMSE = 1.51263e-06
+Iteration count = 1, obj. fcn = 7.71082
+Iteration count = 2, obj. fcn = 5.78372
+Iteration count = 3, obj. fcn = 5.72005
+Iteration count = 4, obj. fcn = 5.50162
+Iteration count = 5, obj. fcn = 5.10924
+Iteration count = 6, obj. fcn = 4.77015
+Iteration count = 7, obj. fcn = 4.58919
+Iteration count = 8, obj. fcn = 4.50503
+Iteration count = 9, obj. fcn = 4.46535
+Iteration count = 10, obj. fcn = 4.44918
+Iteration count = 11, obj. fcn = 4.44371
+Iteration count = 12, obj. fcn = 4.43905
+Iteration count = 13, obj. fcn = 4.43486
+Iteration count = 14, obj. fcn = 4.4336
+Iteration count = 15, obj. fcn = 4.43299
+Iteration count = 16, obj. fcn = 4.43237
+Iteration count = 17, obj. fcn = 4.43163
+Iteration count = 18, obj. fcn = 4.43072
+Iteration count = 19, obj. fcn = 4.4296
+Iteration count = 20, obj. fcn = 4.42826
+Iteration count = 21, obj. fcn = 4.42669
+Iteration count = 22, obj. fcn = 4.42488
+Iteration count = 23, obj. fcn = 4.42287
+Iteration count = 24, obj. fcn = 4.4207
+Iteration count = 25, obj. fcn = 4.4185
+Iteration count = 26, obj. fcn = 4.41641
+Iteration count = 27, obj. fcn = 4.41455
+Iteration count = 28, obj. fcn = 4.41297
+Iteration count = 29, obj. fcn = 4.41162
+Iteration count = 30, obj. fcn = 4.41045
+Iteration count = 31, obj. fcn = 4.40937
+Iteration count = 32, obj. fcn = 4.40833
+Iteration count = 33, obj. fcn = 4.40723
+Iteration count = 34, obj. fcn = 4.4061
+Iteration count = 35, obj. fcn = 4.40527
+Iteration count = 36, obj. fcn = 4.40475
+Iteration count = 37, obj. fcn = 4.40434
+Iteration count = 38, obj. fcn = 4.40398
+Iteration count = 39, obj. fcn = 4.40365
+Iteration count = 40, obj. fcn = 4.40335
+Iteration count = 41, obj. fcn = 4.40306
+Iteration count = 42, obj. fcn = 4.40278
+Iteration count = 43, obj. fcn = 4.40249
+Iteration count = 44, obj. fcn = 4.4022
+Iteration count = 45, obj. fcn = 4.40189
+Iteration count = 46, obj. fcn = 4.40154
+Iteration count = 47, obj. fcn = 4.40112
+Iteration count = 48, obj. fcn = 4.40055
+Iteration count = 49, obj. fcn = 4.39978
+Iteration count = 50, obj. fcn = 4.39916
+Iteration count = 51, obj. fcn = 4.39865
+Iteration count = 52, obj. fcn = 4.39802
+Iteration count = 53, obj. fcn = 4.39712
+Iteration count = 54, obj. fcn = 4.39593
+Iteration count = 55, obj. fcn = 4.39513
+Iteration count = 56, obj. fcn = 4.39467
+Iteration count = 57, obj. fcn = 4.39429
+Iteration count = 58, obj. fcn = 4.39384
+Iteration count = 59, obj. fcn = 4.39342
+Iteration count = 60, obj. fcn = 4.39314
+Iteration count = 61, obj. fcn = 4.39285
+Iteration count = 62, obj. fcn = 4.39252
+Iteration count = 63, obj. fcn = 4.39214
+Iteration count = 64, obj. fcn = 4.39167
+Iteration count = 65, obj. fcn = 4.39109
+Iteration count = 66, obj. fcn = 4.39028
+Iteration count = 67, obj. fcn = 4.38911
+Iteration count = 68, obj. fcn = 4.38759
+Iteration count = 69, obj. fcn = 4.38627
+Iteration count = 70, obj. fcn = 4.38534
+Iteration count = 71, obj. fcn = 4.38451
+Iteration count = 72, obj. fcn = 4.38362
+Iteration count = 73, obj. fcn = 4.38246
+Iteration count = 74, obj. fcn = 4.38122
+Iteration count = 75, obj. fcn = 4.38031
+Iteration count = 76, obj. fcn = 4.37925
+Iteration count = 77, obj. fcn = 4.37771
+Iteration count = 78, obj. fcn = 4.37581
+Iteration count = 79, obj. fcn = 4.3749
+Iteration count = 80, obj. fcn = 4.3742
+Iteration count = 81, obj. fcn = 4.37373
+Iteration count = 82, obj. fcn = 4.37327
+Iteration count = 83, obj. fcn = 4.37272
+Iteration count = 84, obj. fcn = 4.37205
+Iteration count = 85, obj. fcn = 4.37122
+Iteration count = 86, obj. fcn = 4.3702
+Iteration count = 87, obj. fcn = 4.36889
+Iteration count = 88, obj. fcn = 4.36726
+Iteration count = 89, obj. fcn = 4.36559
+Iteration count = 90, obj. fcn = 4.36416
+Iteration count = 91, obj. fcn = 4.36271
+Iteration count = 92, obj. fcn = 4.36117
+Iteration count = 93, obj. fcn = 4.36007
+Iteration count = 94, obj. fcn = 4.35916
+Iteration count = 95, obj. fcn = 4.35818
+Iteration count = 96, obj. fcn = 4.35727
+Iteration count = 97, obj. fcn = 4.35641
+Iteration count = 98, obj. fcn = 4.35556
+Iteration count = 99, obj. fcn = 4.35461
+Iteration count = 100, obj. fcn = 4.35321
+Maximum iteration reached.
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+Warning: Rank deficient, rank = 8, tol =  2.572439e-12. 
+> In genfis3>computemfparams (line 226)
+In genfis3 (line 176)
+In genfis (line 81)
+In K_Fold_ANFIS_Energy_Efficiency (line 54)
+ 
+
+ANFIS info:
+	Number of nodes: 1613
+	Number of linear parameters: 801
+	Number of nonlinear parameters: 1424
+	Total number of parameters: 2225
+	Number of training data pairs: 512
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 89
+
+Warning: Number of training data is smaller than number of modifiable parameters. 
+> In anfis>trainFIS (line 197)
+In anfis>anfisWithOptionalInputs (line 331)
+In anfis (line 70)
+In K_Fold_ANFIS_Energy_Efficiency (line 58) 
+
+Start training ANFIS ...
+
+1 	 6.09403e-06
+2 	 4.38312e-06
+3 	 3.8738e-06
+4 	 3.49307e-06
+5 	 3.9346e-06
+6 	 3.39868e-06
+7 	 3.37072e-06
+8 	 3.24344e-06
+9 	 3.26634e-06
+10 	 3.13095e-06
+11 	 3.48504e-06
+Step size decreases to 0.009000 after epoch 12.
+12 	 3.05802e-06
+13 	 2.92659e-06
+14 	 2.90039e-06
+15 	 3.08715e-06
+16 	 2.95633e-06
+17 	 2.51746e-06
+18 	 2.82507e-06
+19 	 2.70349e-06
+20 	 2.63188e-06
+21 	 2.98363e-06
+22 	 2.39366e-06
+23 	 3.00491e-06
+Step size decreases to 0.008100 after epoch 24.
+24 	 2.42549e-06
+25 	 2.51416e-06
+26 	 2.24766e-06
+27 	 2.39316e-06
+Step size decreases to 0.007290 after epoch 28.
+28 	 2.38254e-06
+29 	 2.22391e-06
+30 	 2.33732e-06
+31 	 2.43938e-06
+32 	 2.60831e-06
+33 	 2.36294e-06
+34 	 2.13131e-06
+35 	 1.94747e-06
+36 	 2.12443e-06
+37 	 2.12489e-06
+38 	 2.2958e-06
+39 	 2.04915e-06
+40 	 2.34606e-06
+Step size decreases to 0.006561 after epoch 41.
+41 	 1.99115e-06
+42 	 2.08414e-06
+43 	 1.93702e-06
+44 	 2.19983e-06
+Step size decreases to 0.005905 after epoch 45.
+45 	 1.99893e-06
+46 	 2.24979e-06
+47 	 2.02494e-06
+48 	 1.96492e-06
+49 	 2.34703e-06
+50 	 1.8809e-06
+51 	 2.2674e-06
+Step size decreases to 0.005314 after epoch 52.
+52 	 1.93995e-06
+53 	 1.95508e-06
+54 	 2.03079e-06
+55 	 2.04895e-06
+56 	 2.04984e-06
+57 	 2.07075e-06
+58 	 1.81171e-06
+59 	 2.0755e-06
+Step size decreases to 0.004783 after epoch 60.
+60 	 1.62724e-06
+61 	 1.7024e-06
+62 	 2.10384e-06
+63 	 1.92896e-06
+64 	 1.87177e-06
+65 	 1.97184e-06
+66 	 1.56313e-06
+67 	 1.81511e-06
+68 	 2.00538e-06
+69 	 1.94919e-06
+70 	 1.84042e-06
+71 	 1.8545e-06
+72 	 2.00468e-06
+73 	 1.68144e-06
+74 	 1.5478e-06
+75 	 1.73475e-06
+76 	 1.69036e-06
+77 	 1.58713e-06
+78 	 1.73974e-06
+79 	 1.69674e-06
+80 	 1.67517e-06
+81 	 1.61688e-06
+Step size increases to 0.005261 after epoch 82.
+82 	 1.58991e-06
+83 	 1.54077e-06
+84 	 1.89784e-06
+85 	 1.49155e-06
+86 	 1.9809e-06
+Step size decreases to 0.004735 after epoch 87.
+87 	 1.47809e-06
+88 	 1.86381e-06
+89 	 1.59984e-06
+90 	 1.78597e-06
+Step size decreases to 0.004262 after epoch 91.
+91 	 1.67301e-06
+92 	 1.75124e-06
+93 	 1.56522e-06
+94 	 1.70615e-06
+Step size decreases to 0.003835 after epoch 95.
+95 	 1.50694e-06
+96 	 1.68953e-06
+97 	 1.48584e-06
+98 	 1.65459e-06
+Step size decreases to 0.003452 after epoch 99.
+99 	 1.47193e-06
+100 	 1.5819e-06
+101 	 1.46472e-06
+102 	 1.49179e-06
+103 	 1.49515e-06
+104 	 1.60697e-06
+105 	 1.45932e-06
+106 	 1.59646e-06
+Step size decreases to 0.003107 after epoch 107.
+107 	 1.49255e-06
+108 	 1.63205e-06
+109 	 1.49218e-06
+110 	 1.64872e-06
+Step size decreases to 0.002796 after epoch 111.
+111 	 1.50969e-06
+112 	 1.58427e-06
+113 	 1.56236e-06
+114 	 1.59309e-06
+Step size decreases to 0.002516 after epoch 115.
+115 	 1.58463e-06
+116 	 1.59198e-06
+117 	 1.55052e-06
+118 	 1.55202e-06
+Step size decreases to 0.002265 after epoch 119.
+119 	 1.54736e-06
+120 	 1.5539e-06
+121 	 1.55506e-06
+122 	 1.55908e-06
+123 	 1.54112e-06
+124 	 1.55257e-06
+Step size decreases to 0.002038 after epoch 125.
+125 	 1.54841e-06
+126 	 1.56664e-06
+127 	 1.53878e-06
+128 	 1.5768e-06
+Step size decreases to 0.001834 after epoch 129.
+129 	 1.53166e-06
+130 	 1.57437e-06
+131 	 1.52717e-06
+132 	 1.57535e-06
+Step size decreases to 0.001651 after epoch 133.
+133 	 1.52551e-06
+134 	 1.56873e-06
+135 	 1.52434e-06
+136 	 1.57108e-06
+Step size decreases to 0.001486 after epoch 137.
+137 	 1.52174e-06
+138 	 1.56627e-06
+139 	 1.52015e-06
+140 	 1.56726e-06
+Step size decreases to 0.001337 after epoch 141.
+141 	 1.51744e-06
+142 	 1.56377e-06
+143 	 1.51511e-06
+144 	 1.5629e-06
+Step size decreases to 0.001204 after epoch 145.
+145 	 1.51167e-06
+146 	 1.5594e-06
+147 	 1.50884e-06
+148 	 1.55642e-06
+Step size decreases to 0.001083 after epoch 149.
+149 	 1.50452e-06
+150 	 1.55234e-06
+151 	 1.50134e-06
+152 	 1.54765e-06
+Step size decreases to 0.000975 after epoch 153.
+153 	 1.49622e-06
+154 	 1.54305e-06
+155 	 1.49273e-06
+156 	 1.53721e-06
+Step size decreases to 0.000877 after epoch 157.
+157 	 1.48702e-06
+158 	 1.53234e-06
+159 	 1.48326e-06
+160 	 1.52576e-06
+Step size decreases to 0.000790 after epoch 161.
+161 	 1.47722e-06
+162 	 1.52083e-06
+163 	 1.47324e-06
+164 	 1.51378e-06
+Step size decreases to 0.000711 after epoch 165.
+165 	 1.46714e-06
+166 	 1.50895e-06
+167 	 1.46304e-06
+168 	 1.50158e-06
+Step size decreases to 0.000640 after epoch 169.
+169 	 1.45713e-06
+170 	 1.49686e-06
+171 	 1.45302e-06
+172 	 1.48908e-06
+Step size decreases to 0.000576 after epoch 173.
+173 	 1.44757e-06
+174 	 1.48408e-06
+175 	 1.44365e-06
+176 	 1.47538e-06
+Step size decreases to 0.000518 after epoch 177.
+177 	 1.43877e-06
+178 	 1.46943e-06
+179 	 1.43513e-06
+180 	 1.45989e-06
+Step size decreases to 0.000466 after epoch 181.
+181 	 1.43051e-06
+182 	 1.45375e-06
+183 	 1.4269e-06
+184 	 1.44508e-06
+Step size decreases to 0.000420 after epoch 185.
+185 	 1.4222e-06
+186 	 1.43984e-06
+187 	 1.41846e-06
+188 	 1.43232e-06
+Step size decreases to 0.000378 after epoch 189.
+189 	 1.41377e-06
+190 	 1.42772e-06
+191 	 1.41008e-06
+192 	 1.42087e-06
+Step size decreases to 0.000340 after epoch 193.
+193 	 1.40561e-06
+194 	 1.41658e-06
+195 	 1.40209e-06
+196 	 1.41025e-06
+Step size decreases to 0.000306 after epoch 197.
+197 	 1.39801e-06
+198 	 1.40613e-06
+199 	 1.39471e-06
+200 	 1.40043e-06
+
+Designated epoch number reached. ANFIS training completed at epoch 200.
+
+Minimal training RMSE = 1.39471e-06
+Average MAE: 0.00026312
+Average MSE: 1.7737e-06
+Average MRE: 0.0018448
+Elapsed time is 728.880984 seconds.

@@ -1,13 +1,13 @@
 clear; clc; close;
 tic
-% Load the dataset from an Excel file
+% Load the dataset 
 data = readtable('energy_efficiency_data.xlsx');
 
-% Assuming the first 8 columns are input features and the 9th column is the target (heating load)
+% Getting inputs and targets
 inputs = table2array(data(:, 1:8));
 target = table2array(data(:, 9));
 
-% Normalize the inputs
+% Normalize the inputs - Z-score
 %meanVals = mean(inputs);
 %stdVals = std(inputs);
 %inputs_normalized = (inputs - meanVals) ./ stdVals;
@@ -17,26 +17,25 @@ target = table2array(data(:, 9));
 %stdTargs = std(target);
 %target_normalized = (targets - meanVals) ./ stdVals;
 
-% Normalize the inputs using min-max normalization
+% Normalize the inputs - Min-Max normalization
 minVals = min(inputs);
 maxVals = max(inputs);
 inputs_normalized = (inputs - minVals) ./ (maxVals - minVals);
 
-% Normalize the targets using min-max normalization
+% Normalize the targets 
 minVals = min(target);
 maxVals = max(target);
 target_normalized = (inputs - minVals) ./ (maxVals - minVals);
 
-% Initialize cross-validation
+% Cross-validation
 cv = cvpartition(size(data,1),'KFold',3);
 
-% Initialize vectors to store metrics for each fold
+
 mae_values = zeros(cv.NumTestSets,1);
 mse_values = zeros(cv.NumTestSets,1);
 mre_values = zeros(cv.NumTestSets,1);
 
 for i = 1:cv.NumTestSets
-    % Indices for training and test set
     trainIdx = training(cv, i);
     testIdx = test(cv, i);
     
@@ -47,31 +46,30 @@ for i = 1:cv.NumTestSets
     target_test = target_normalized(testIdx);
     
     % Generate an initial FIS structure
-    %%optGF = genfisOptions('FCMClustering','FISType','sugeno');
+    %optGF = genfisOptions('FCMClustering','FISType','sugeno');
+    %optGF = genfisOptions('SubtractiveClustering');
     optGF = genfisOptions('GridPartition');
-    optGF.NumMembershipFunctions = 2;
-    optGF.InputMembershipFunctionType = "gbellmf";
+    optGF.NumMembershipFunctions = [4 4 3 2 2 2 2 3];
+    optGF.InputMembershipFunctionType = "gauss2mf";
     fis = genfis(inputs_train, target_train, optGF);
     
     % Train the ANFIS model
-    numEpochs = 200; % Adjust as needed
+    numEpochs = 10; 
     [trainedFis, trainError] = anfis([inputs_train target_train], fis, numEpochs);
     
-    % Predict the heating load for the test set
+    % Predictions
     predicted = evalfis(trainedFis, inputs_test);
     
-    % Calculate Mean Absolute Error (MAE)
+    % Mean Absolute Error (MAE)
     mae_values(i) = mean(abs(predicted - target_test));
     
-    % Calculate Mean Squared Error (MSE)
+    % Mean Squared Error (MSE)
     mse_values(i) = mean((predicted - target_test).^2);
     
-    % Calculate Mean Relative Error (MRE)
-    % Note: Add a small number to avoid division by zero
+    %  Mean Relative Error (MRE)
     mre_values(i) = mean(abs((predicted - target_test) ./ (target_test + eps)));
 end
 
-% Display average of the metrics
 disp(['Average MAE: ', num2str(mean(mae_values))]);
 disp(['Average MSE: ', num2str(mean(mse_values))]);
 disp(['Average MRE: ', num2str(mean(mre_values))]);
